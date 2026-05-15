@@ -20,7 +20,7 @@ export const useWizardStore = create<WizardState>((set) => ({
   selectedObjectives: [],
   filteredEventIds: [],
   team11DemoOnly: false,
-  team11EventIds: ['chapter_2', 'chapter_6', 'chapter_13', 'chapter_14'],
+  team11EventIds: ['chapter_2', 'chapter_3', 'chapter_6', 'chapter_14'],
   
   setPage: (p) => set({ page: p }),
   setSelectedObjectives: (objectives) => set({ selectedObjectives: objectives }),
