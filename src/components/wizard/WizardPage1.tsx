@@ -7,7 +7,13 @@ import { PageLayout, PageHeader, FooterActions, StandardButton } from '../layout
 
 export function WizardPage1() {
   const navigate = useNavigate();
-  const { selectedObjectives, setSelectedObjectives } = useWizardStore();
+  const {
+    selectedObjectives,
+    setSelectedObjectives,
+    team11DemoOnly,
+    setTeam11DemoOnly,
+    team11EventIds,
+  } = useWizardStore();
 
   const toggleObjective = (objectiveId: string) => {
     setSelectedObjectives(
@@ -18,7 +24,7 @@ export function WizardPage1() {
   };
 
   const handleSubmit = () => {
-    if (selectedObjectives.length === 0) {
+    if (!team11DemoOnly && selectedObjectives.length === 0) {
       alert('Please select at least one business objective');
       return;
     }
@@ -40,7 +46,7 @@ export function WizardPage1() {
             variant="primary"
             size="lg"
             fullWidth
-            disabled={selectedObjectives.length === 0}
+            disabled={!team11DemoOnly && selectedObjectives.length === 0}
             onClick={handleSubmit}
           >
             Continue to lifecycle
@@ -100,6 +106,28 @@ export function WizardPage1() {
             ) : (
               <p className="text-sm text-slate-400">Select objectives above to see them here</p>
             )}
+          </div>
+        </div>
+
+        {/* Team 11 Demo Preset */}
+        <div className={`mb-3 p-3 rounded border-2 transition-all ${team11DemoOnly ? 'border-blue-500 bg-blue-50' : 'border-slate-200 bg-slate-50'}`}>
+          <div className="flex items-start justify-between gap-3">
+            <div>
+              <h3 className="text-sm font-semibold text-slate-800">Team 11 Demo Preset</h3>
+              <p className="text-xs text-slate-600 mt-1">
+                Select only 4 key moments and grey out all other life events in Step 2.
+              </p>
+              <p className="text-xs text-slate-500 mt-1">
+                Event IDs: {team11EventIds.join(', ')}
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={() => setTeam11DemoOnly(!team11DemoOnly)}
+              className={`px-3 py-1.5 rounded text-xs font-semibold transition-colors ${team11DemoOnly ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-slate-200 text-slate-700 hover:bg-slate-300'}`}
+            >
+              {team11DemoOnly ? 'Enabled' : 'Enable'}
+            </button>
           </div>
         </div>
     </PageLayout>

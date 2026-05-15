@@ -10,12 +10,18 @@ import { PageLayout, PageHeader, TimelineSection, FooterActions, StandardButton 
 
 export function WizardPage2() {
   const navigate = useNavigate();
-  const { selectedObjectives, setFilteredEventIds } = useWizardStore();
+  const { selectedObjectives, setFilteredEventIds, team11DemoOnly, team11EventIds } = useWizardStore();
   const [stage, setStage] = useState<'initial' | 'analyzing' | 'greying' | 'filtering' | 'filtered'>('initial');
   const [greyed, setGreyed] = useState<Set<string>>(new Set());
 
   // Determine which events match the selected objectives
   const matchingEventIds = useMemo(() => {
+    if (team11DemoOnly) {
+      return ALL_LIFE_EVENTS
+        .filter((event) => team11EventIds.includes(event.id))
+        .map((e) => e.id);
+    }
+
     return ALL_LIFE_EVENTS
       .filter((event) => {
         return event.businessCases.some((bc) =>
@@ -23,7 +29,7 @@ export function WizardPage2() {
         );
       })
       .map((e) => e.id);
-  }, [selectedObjectives]);
+  }, [selectedObjectives, team11DemoOnly, team11EventIds]);
 
   const nonMatchingEventIds = useMemo(() => {
     return ALL_LIFE_EVENTS
