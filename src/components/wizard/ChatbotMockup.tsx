@@ -6,12 +6,25 @@ interface ChatbotMockupProps {
 }
 
 export function ChatbotMockup({ conversation, title }: ChatbotMockupProps) {
-  // Keep the chat focused on the core MyBank recommendation.
-  const firstAiIndex = conversation.messages.findIndex((msg) => msg.role === "ai");
-  const focusedMessages =
-    firstAiIndex >= 0
-      ? conversation.messages.slice(0, firstAiIndex + 1)
-      : conversation.messages.slice(0, 2);
+  // Show a short but coherent exchange so the visual matches the underlying story.
+  const focusedMessages = (() => {
+    const messages = conversation.messages ?? [];
+
+    if (messages.length <= 3) {
+      return messages;
+    }
+
+    if (messages[0]?.role === "ai") {
+      return messages.slice(0, 3);
+    }
+
+    const firstAiIndex = messages.findIndex((msg) => msg.role === "ai");
+    if (firstAiIndex === -1) {
+      return messages.slice(0, 2);
+    }
+
+    return messages.slice(0, Math.min(firstAiIndex + 1, 3));
+  })();
 
   return (
     <div className="flex justify-center py-1">

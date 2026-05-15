@@ -24,6 +24,165 @@ const CAPABILITY_ICONS: Record<PersoneticsCapability, string> = {
   gen_ai: '🤖',
 };
 
+interface VisualTransaction {
+  icon: string;
+  name: string;
+  amount: string;
+  meta: string;
+}
+
+function getVisualContext(eventTitle: string, message: string) {
+  const text = `${eventTitle} ${message}`.toLowerCase();
+
+  if (text.includes('smart start') || text.includes('gaa') || text.includes('pocket money') || text.includes('birthday')) {
+    return {
+      customerName: 'Paul',
+      accountLabel: 'Smart Start',
+      balance: '€120',
+      segmentLabel: 'YOUTH SAVER',
+      transactions: [
+        { icon: '🏑', name: 'O\'Neills GAA', amount: '-€22', meta: 'This week' },
+        { icon: '🥤', name: 'Club Snacks', amount: '-€4', meta: 'This week' },
+      ] satisfies VisualTransaction[],
+    };
+  }
+
+  if (text.includes('student') || text.includes('college') || text.includes('driving')) {
+    return {
+      customerName: 'Paul',
+      accountLabel: 'Student Account',
+      balance: '€640',
+      segmentLabel: 'STUDENT',
+      transactions: [
+        { icon: '🎓', name: 'College Deposit', amount: '-€120', meta: 'Today' },
+        { icon: '🚗', name: 'Driving Lesson', amount: '-€45', meta: 'Today' },
+      ] satisfies VisualTransaction[],
+    };
+  }
+
+  if (text.includes('salary') || text.includes('rent') || text.includes('mortgage') || text.includes('home deposit')) {
+    return {
+      customerName: 'Paul',
+      accountLabel: 'Current Account',
+      balance: '€2,860',
+      segmentLabel: 'HOME SAVER',
+      transactions: [
+        { icon: '💼', name: 'Monthly Salary', amount: '+€2,400', meta: 'Today' },
+        { icon: '🏠', name: 'Rent Payment', amount: '-€980', meta: 'Today' },
+      ] satisfies VisualTransaction[],
+    };
+  }
+
+  if (text.includes('isa') || text.includes('investment') || text.includes('savings pattern')) {
+    return {
+      customerName: 'Paul',
+      accountLabel: 'Savings',
+      balance: '€18,450',
+      segmentLabel: 'INVESTOR',
+      transactions: [
+        { icon: '📈', name: 'ISA Transfer', amount: '+€250', meta: 'This month' },
+        { icon: '💷', name: 'Interest Credit', amount: '+€18', meta: 'This month' },
+      ] satisfies VisualTransaction[],
+    };
+  }
+
+  if (text.includes('credit')) {
+    return {
+      customerName: 'Alex',
+      accountLabel: 'Credit Builder',
+      balance: '€1,240',
+      segmentLabel: 'CREDIT BUILDER',
+      transactions: [
+        { icon: '💳', name: 'Card Payment', amount: '-€50', meta: 'Today' },
+        { icon: '☕', name: 'Coffee Shop', amount: '-€6', meta: 'Today' },
+      ] satisfies VisualTransaction[],
+    };
+  }
+
+  if (text.includes('car') || text.includes('auto')) {
+    return {
+      customerName: 'Alex',
+      accountLabel: 'Checking',
+      balance: '€6,920',
+      segmentLabel: 'BORROWER',
+      transactions: [
+        { icon: '🚗', name: 'Dealer Deposit', amount: '-€500', meta: 'Today' },
+        { icon: '🛡️', name: 'Insurance Quote', amount: '-€82', meta: 'Today' },
+      ] satisfies VisualTransaction[],
+    };
+  }
+
+  if (text.includes('tax') || text.includes('refund') || text.includes('irs')) {
+    return {
+      customerName: 'Alex',
+      accountLabel: 'Checking',
+      balance: '€9,880',
+      segmentLabel: 'TAX PLANNER',
+      transactions: [
+        { icon: '🧾', name: 'IRS Refund', amount: '+€2,400', meta: 'Today' },
+        { icon: '🏦', name: 'Savings Sweep', amount: '-€400', meta: 'Today' },
+      ] satisfies VisualTransaction[],
+    };
+  }
+
+  if (text.includes('engaged') || text.includes('wedding') || text.includes('partner')) {
+    return {
+      customerName: 'Alex',
+      accountLabel: 'Joint Goals',
+      balance: '€14,200',
+      segmentLabel: 'HOUSEHOLD',
+      transactions: [
+        { icon: '💍', name: 'Jewelry Purchase', amount: '-€4,800', meta: 'This week' },
+        { icon: '🏛️', name: 'Venue Deposit', amount: '-€600', meta: 'This week' },
+      ] satisfies VisualTransaction[],
+    };
+  }
+
+  if (text.includes('parent') || text.includes('baby') || text.includes('childcare')) {
+    return {
+      customerName: 'Alex',
+      accountLabel: 'Family Account',
+      balance: '€8,540',
+      segmentLabel: 'FAMILY',
+      transactions: [
+        { icon: '🍼', name: 'Baby Store', amount: '-€72', meta: 'Today' },
+        { icon: '🏥', name: 'Hospital Bill', amount: '-€180', meta: 'This week' },
+      ] satisfies VisualTransaction[],
+    };
+  }
+
+  if (text.includes('retire') || text.includes('pension') || text.includes('legacy') || text.includes('estate')) {
+    return {
+      customerName: 'Alex',
+      accountLabel: 'Retirement',
+      balance: '€24,600',
+      segmentLabel: 'WEALTH',
+      transactions: [
+        { icon: '🏖️', name: 'Pension Credit', amount: '+€3,200', meta: 'This month' },
+        { icon: '⚖️', name: 'Estate Review', amount: '-€350', meta: 'This month' },
+      ] satisfies VisualTransaction[],
+    };
+  }
+
+  return {
+    customerName: 'Alex',
+    accountLabel: 'Checking',
+    balance: '€7,224',
+    segmentLabel: 'PREMIUM',
+    transactions: [
+      { icon: '🧠', name: 'Insight Review', amount: 'Opened', meta: 'Today' },
+      { icon: '🎯', name: capIconFallback(text), amount: 'Updated', meta: 'Today' },
+    ] satisfies VisualTransaction[],
+  };
+}
+
+function capIconFallback(text: string) {
+  if (text.includes('goal')) return 'Goal Tracker';
+  if (text.includes('save')) return 'Savings Plan';
+  if (text.includes('budget')) return 'Budget Plan';
+  return 'Financial Plan';
+}
+
 interface ChannelMockupProps {
   channel: Channel;
   capability: PersoneticsCapability;
@@ -35,6 +194,7 @@ export function ChannelMockup({ channel, capability, message, eventTitle }: Chan
   const capLabel = CAPABILITY_LABELS[capability] ?? capability.replace(/_/g, ' ');
   const capIcon = CAPABILITY_ICONS[capability] ?? '💡';
   const lowerMessage = message.toLowerCase();
+  const visualContext = getVisualContext(eventTitle, message);
 
   const inAppInsightTitle = (() => {
     if (capability !== 'cashflow_forecast') return capLabel;
@@ -240,24 +400,24 @@ export function ChannelMockup({ channel, capability, message, eventTitle }: Chan
                   <div style={{ padding: '10px 12px 8px' }}>
                     <div style={{ fontSize: 9, fontWeight: 700, color: '#8e8e93', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 6 }}>Accounts</div>
                     <div style={{ background: 'linear-gradient(135deg, #2563eb, #1d4ed8)', borderRadius: 14, padding: '10px 12px', color: '#fff', boxShadow: '0 4px 12px rgba(37,99,235,0.4)' }}>
-                      <div style={{ fontSize: 9, color: 'rgba(255,255,255,0.7)', marginBottom: 2 }}>Checking</div>
-                      <div style={{ fontSize: 18, fontWeight: 700, letterSpacing: -0.5 }}>€7,224</div>
+                      <div style={{ fontSize: 9, color: 'rgba(255,255,255,0.7)', marginBottom: 2 }}>{visualContext.accountLabel}</div>
+                      <div style={{ fontSize: 18, fontWeight: 700, letterSpacing: -0.5 }}>{visualContext.balance}</div>
                     </div>
                   </div>
 
                   {/* Recent transactions */}
                   <div style={{ padding: '8px 12px', borderTop: '0.5px solid #e5e5ea' }}>
                     <div style={{ fontSize: 9, fontWeight: 700, color: '#8e8e93', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 6 }}>Recent</div>
-                    {[{ icon: '🛒', name: 'IKEA', amt: '-€700' }, { icon: '✈️', name: 'Delta Air', amt: '-€680' }].map((t, i) => (
+                    {visualContext.transactions.map((t, i) => (
                       <div key={i} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '5px 0', borderBottom: i === 0 ? '0.5px solid #f2f2f7' : 'none' }}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                           <div style={{ width: 30, height: 30, borderRadius: 10, background: '#f2f2f7', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14 }}>{t.icon}</div>
                           <div>
                             <div style={{ fontSize: 11, fontWeight: 600, color: '#1c1c1e' }}>{t.name}</div>
-                            <div style={{ fontSize: 9, color: '#8e8e93' }}>Today</div>
+                            <div style={{ fontSize: 9, color: '#8e8e93' }}>{t.meta}</div>
                           </div>
                         </div>
-                        <span style={{ fontSize: 11, fontWeight: 600, color: '#1c1c1e' }}>{t.amt}</span>
+                        <span style={{ fontSize: 11, fontWeight: 600, color: '#1c1c1e' }}>{t.amount}</span>
                       </div>
                     ))}
                   </div>
@@ -361,7 +521,7 @@ export function ChannelMockup({ channel, capability, message, eventTitle }: Chan
 
             {/* Email body */}
             <div className="bg-white px-6 py-4">
-              <p className="text-sm text-slate-700 mb-4 leading-relaxed">Hi Alex,</p>
+              <p className="text-sm text-slate-700 mb-4 leading-relaxed">Hi {visualContext.customerName},</p>
               
               <p className="text-sm text-slate-700 mb-4 leading-relaxed font-medium">{message}</p>
               
@@ -414,7 +574,7 @@ export function ChannelMockup({ channel, capability, message, eventTitle }: Chan
                 <div className="w-6 h-6 rounded bg-white/20 flex items-center justify-center text-sm text-white">⚙️</div>
                 <div>
                   <div className="text-[10px] text-blue-100 uppercase tracking-wide">Customer Account</div>
-                  <div className="text-sm font-bold text-white">Alex Johnson</div>
+                  <div className="text-sm font-bold text-white">{visualContext.customerName}</div>
                 </div>
               </div>
               <div className="flex items-center gap-2">
@@ -457,7 +617,7 @@ export function ChannelMockup({ channel, capability, message, eventTitle }: Chan
                     <div>
                       <div className="text-[9px] font-semibold text-slate-600">CUSTOMER VALUE</div>
                       <div className="px-2 py-1 bg-emerald-100 rounded inline-block">
-                        <span className="text-[9px] font-bold text-emerald-700">HIGH VALUE</span>
+                        <span className="text-[9px] font-bold text-emerald-700">{visualContext.segmentLabel}</span>
                       </div>
                     </div>
                   </div>

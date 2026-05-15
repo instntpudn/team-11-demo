@@ -101,6 +101,16 @@ export function WizardPage3() {
     return selectedEvent.microJourney[currentStepIndex] || selectedEvent.microJourney[0];
   }, [selectedEvent, currentStepIndex]);
 
+  const signalDetectedText = useMemo(() => {
+    if (!displayStep) return 'Signal detected and analyzed';
+    return displayStep.signal || selectedEvent?.bankEvent || 'Signal detected and analyzed';
+  }, [displayStep, selectedEvent]);
+
+  const signalContextText = useMemo(() => {
+    if (!displayStep || !selectedEvent?.bankEvent) return null;
+    return selectedEvent.bankEvent !== displayStep.signal ? selectedEvent.bankEvent : null;
+  }, [displayStep, selectedEvent]);
+
   const handlePrevStep = () => {
     if (currentStepIndex > 0) {
       setCurrentStepIndex(currentStepIndex - 1);
@@ -237,13 +247,16 @@ export function WizardPage3() {
                 <div className="text-sm font-semibold text-slate-700 mb-1 flex items-center gap-1">
                   <span className="text-blue-600">●</span> DATA SIGNAL DETECTED
                 </div>
-                {selectedEvent.bankEvent && (
-                  <p className="text-xs text-slate-500 mb-2 pb-2 border-b border-slate-300 italic">
-                    Detected: {selectedEvent.bankEvent}
+                <p className="text-xs text-slate-500 mb-2 pb-2 border-b border-slate-300 italic">
+                  Detected: {signalDetectedText}
+                </p>
+                {signalContextText && (
+                  <p className="text-xs text-slate-500 mb-2 italic">
+                    Life moment context: {signalContextText}
                   </p>
                 )}
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  {displayStep.signal || 'Signal detected and analyzed'}
+                  {displayStep.insight || displayStep.customerReaction}
                 </p>
               </div>
 

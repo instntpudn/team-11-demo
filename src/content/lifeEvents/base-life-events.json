@@ -76,17 +76,6 @@
         "capability": "engagement_builder",
         "customerReaction": "Grandparents add €500 birthday gift.",
         "bankOutcome": "New deposit relationship established with family"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "",
-        "insight": "",
-        "channel": "banker",
-        "capability": "relationship_advisory",
-        "customerReaction": "New family member! Parents open child savings—start wealth building early. €50/month = €50K by age 18.",
-        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -198,17 +187,6 @@
         "capability": "goals_trackers",
         "customerReaction": "Paul reaches his €100 goal and feels proud that his saving habit paid off.",
         "bankOutcome": "Goal completion improves retention and creates momentum for the next savings objective"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "",
-        "insight": "",
-        "channel": "banker",
-        "capability": "relationship_advisory",
-        "customerReaction": "Smart Start saver active. Reinforce weekly €5 deposits, celebrate progress toward the €100 birthday goal, and position the account as Paul's first long-term savings habit.",
-        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -413,17 +391,6 @@
         "capability": "offers",
         "customerReaction": "Alex accepts in one tap.",
         "bankOutcome": "Credit utilization optimization - APR reduced by 3%"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "",
-        "insight": "",
-        "channel": "banker",
-        "capability": "relationship_advisory",
-        "customerReaction": "Building credit foundation. Recommend secured credit card + credit monitoring setup.",
-        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -512,17 +479,6 @@
         "capability": "personalized_insights",
         "customerReaction": "Alex follows the suggested budget.",
         "bankOutcome": "Student loan payoff accelerated by 8 months"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "",
-        "insight": "",
-        "channel": "banker",
-        "capability": "relationship_advisory",
-        "customerReaction": "College graduate ready to invest. First job income—recommend 401(k) + emergency fund review.",
-        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -726,17 +682,6 @@
         "capability": "engagement_builder",
         "customerReaction": "Alex feels momentum, considers refinance later.",
         "bankOutcome": "Consolidated loans - APR reduced to 4.2%"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "",
-        "insight": "",
-        "channel": "banker",
-        "capability": "relationship_advisory",
-        "customerReaction": "Student debt management critical. Consolidation analysis + repayment strategy planning available.",
-        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -824,17 +769,6 @@
         "capability": "engagement_builder",
         "customerReaction": "Alex bumps weekly save up.",
         "bankOutcome": "Emergency fund fully funded - financial security improved"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "",
-        "insight": "",
-        "channel": "banker",
-        "capability": "relationship_advisory",
-        "customerReaction": "Emerging financial strength. Recommend investment account + wealth-building roadmap.",
-        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -922,17 +856,6 @@
         "capability": "cashflow_forecast",
         "customerReaction": "Alex feels reassured.",
         "bankOutcome": "Auto loan approved at Prime rate - 4.9% APR"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "",
-        "insight": "",
-        "channel": "banker",
-        "capability": "relationship_advisory",
-        "customerReaction": "First vehicle purchase. Auto loan pre-qualification available. APR savings up to €3K possible.",
-        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -1021,17 +944,6 @@
         "capability": "engagement_builder",
         "customerReaction": "Alex feels in control.",
         "bankOutcome": "Tax refund optimized - €3,200 received within 2 weeks"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "",
-        "insight": "",
-        "channel": "banker",
-        "capability": "relationship_advisory",
-        "customerReaction": "Tax season planning. Recommend tax-advantaged accounts + refund reinvestment strategy.",
-        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -1120,17 +1032,6 @@
         "capability": "offers",
         "customerReaction": "Alex schedules an in-branch open.",
         "bankOutcome": "Joint account setup - household financial integration"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "",
-        "insight": "",
-        "channel": "banker",
-        "capability": "relationship_advisory",
-        "customerReaction": "Life partner transition. Joint account + estate planning consultation recommended.",
-        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -1219,17 +1120,6 @@
         "capability": "engagement_builder",
         "customerReaction": "Alex shares the recap.",
         "bankOutcome": "Tax credits applied - €2,000 annual child tax credit"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "",
-        "insight": "",
-        "channel": "banker",
-        "capability": "relationship_advisory",
-        "customerReaction": "Growing family expenses. Life insurance + college savings plan review critical.",
-        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -1317,17 +1207,6 @@
         "capability": "engagement_builder",
         "customerReaction": "Alex feels confident, stays the course.",
         "bankOutcome": "Down payment goal achieved - 20% saved (€60K)"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "",
-        "insight": "",
-        "channel": "banker",
-        "capability": "relationship_advisory",
-        "customerReaction": "Homeownership within reach. Mortgage pre-qualification + down payment savings strategy.",
-        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -1532,17 +1411,6 @@
         "capability": "transaction_intelligence",
         "customerReaction": "Alex uses tracker daily.",
         "bankOutcome": "Home equity line available - €80K HELOC established"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "",
-        "insight": "",
-        "channel": "banker",
-        "capability": "relationship_advisory",
-        "customerReaction": "Home improvement planning. Home equity line options + renovation financing available.",
-        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -1718,17 +1586,6 @@
         "capability": "engagement_builder",
         "customerReaction": "Alex makes it the family meeting tool.",
         "bankOutcome": "529 distributions deployed - €80K college funding released"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "",
-        "insight": "",
-        "channel": "banker",
-        "capability": "relationship_advisory",
-        "customerReaction": "Child education funding. 529 college savings plan review + scholarship strategy.",
-        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
