@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "update-from-excel": "node scripts/data/fetch-excel-and-convert.js",
+    "update-from-excel": "node scripts/data/fetch-excel-and-convert.js && node scripts/data/inject-chatbot.js",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
