@@ -101,10 +101,10 @@
     "age": 11,
     "yearLabel": "Age 11",
     "title": "Smart Start Account Holder",
-    "bankEvent": "First debit card issued and activated for youth savings",
+    "bankEvent": "Parents deposit pocket money into Paul's Smart Start Account",
     "lifeStage": "childhood",
     "emotionalTheme": "Motivation & Goal Achievement",
-    "description": "Paul receives a Smart Start Account from BOI and his parents deposit EUR20 pocket money. With a goal to save EUR100 for GAA equipment by his birthday, Paul learns the power of consistent saving.",
+    "description": "Paul is 11, loves sport, and regularly spends on GAA equipment. When his parents lodge €20 into his Smart Start Account, BOI Buddy nudges him toward a €100 birthday savings goal.",
     "businessCases": [
       "engagement",
       "financial_wellness",
@@ -119,38 +119,34 @@
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "Parents deposit EUR20 pocket money - savings goal opportunity",
-        "insight": "Hey Paul! EUR20 has gone into your account. If you put EUR5 into your Smart Start Money Pot each week, you could have EUR100 by your birthday - that's a lot of GAA gear! If you reach this savings goal, you can earn points to redeem vouchers.",
+        "signal": "Parents deposit pocket money into Paul's Smart Start Account",
+        "insight": "Hey Paul! €20 has gone into your account. If you put €5 into your Smart Start Money Pot each week, you could have €100 by your birthday - that's a lot of GAA gear! If you reach this savings goal, you can earn points to redeem vouchers.",
         "eventTypeExperience": "Agentic Chat Experience",
         "channel": "chatbot",
         "capability": "goals_trackers",
-        "customerReaction": "Paul starts his Smart Start Money Pot and begins working toward his EUR100 birthday goal.",
+        "customerReaction": "Paul can see he is already on his way to hitting his €100 birthday goal for new GAA gear.",
         "bankOutcome": "Goal tracker adoption increases youth engagement and repeat deposits",
         "chatbotConversation": {
           "messages": [
             {
-              "role": "user",
-              "text": "How much money will I have if I save €5 each week?"
-            },
-            {
               "role": "ai",
-              "text": "Great question! If you save €5 every week, that's €20 per month. By your birthday, you'll have saved around €100 - exactly enough for that GAA equipment you've been eyeing!"
+              "text": "Hey Paul! €20 has gone into your account. If you put €5 into your Smart Start Money Pot each week, you could have €100 by your birthday - that's a lot of GAA gear! If you reach this savings goal, you can earn points to redeem vouchers."
             },
             {
               "role": "user",
-              "text": "Really? €100 by my birthday?"
+              "text": "That sounds great. Will I really make it to €100 by my birthday?"
             },
             {
               "role": "ai",
-              "text": "Yes! Your €20 pocket money just went in, so you're off to a great start. If you stick with €5 weekly, you'll hit your €100 goal. Plus, when you reach it, you can earn bonus points to redeem vouchers!"
+              "text": "Yes. You're already off to a strong start, and another €5 each week keeps you on track for your birthday target."
             },
             {
               "role": "user",
-              "text": "That sounds amazing. Let's do it!"
+              "text": "Perfect. Let's start saving for the gear."
             },
             {
               "role": "ai",
-              "text": "Brilliant! I've set up your Smart Start Money Pot to track your weekly €5 savings. Each deposit counts toward your €100 birthday goal. I'll send you a weekly reminder to keep you on track!"
+              "text": "Done. Your Smart Start Money Pot is active, and I'll keep you updated as you move closer to your €100 goal."
             }
           ]
         }
@@ -160,7 +156,7 @@
         "dayLabel": "",
         "title": "",
         "signal": "Weekly pocket money habit forming - consistent savings behaviour detected",
-        "insight": "You are one week into your savings plan. Another EUR5 moved into your Money Pot today, so you are already building momentum toward your birthday target.",
+        "insight": "You are one week into your savings plan. Another €5 moved into your Money Pot today, so you are already building momentum toward your birthday target.",
         "eventTypeExperience": "In-App Experience",
         "channel": "in_app",
         "capability": "goals_trackers",
@@ -172,7 +168,7 @@
         "dayLabel": "",
         "title": "",
         "signal": "Birthday target projection updated - goal remains on track",
-        "insight": "At your current pace, you are still on track to reach EUR100 by your birthday. Keep going and you will be ready for new GAA gear right on time.",
+        "insight": "At your current pace, you are still on track to reach €100 by your birthday. Keep going and you will be ready for new GAA gear right on time.",
         "eventTypeExperience": "Push Notification Experience",
         "channel": "push",
         "capability": "goal_forecast",
@@ -184,7 +180,7 @@
         "dayLabel": "",
         "title": "",
         "signal": "Reward threshold approaching - loyalty incentive available",
-        "insight": "You are close to your EUR100 goal. One more good week of saving could unlock reward points that can be redeemed for vouchers.",
+        "insight": "You are close to your €100 goal. One more good week of saving could unlock reward points that can be redeemed for vouchers.",
         "eventTypeExperience": "In-App Experience",
         "channel": "in_app",
         "capability": "next_best_action",
@@ -196,11 +192,11 @@
         "dayLabel": "",
         "title": "",
         "signal": "Savings goal achieved - celebration and follow-on habit opportunity",
-        "insight": "You did it, Paul. Your Smart Start Money Pot has reached EUR100 in time for your birthday. Keep the habit going and choose your next savings goal.",
+        "insight": "You did it, Paul. Your Smart Start Money Pot has reached €100 in time for your birthday. Keep the habit going and choose your next savings goal.",
         "eventTypeExperience": "In-App Experience",
         "channel": "in_app",
         "capability": "goals_trackers",
-        "customerReaction": "Paul reaches his EUR100 goal and feels proud that his saving habit paid off.",
+        "customerReaction": "Paul reaches his €100 goal and feels proud that his saving habit paid off.",
         "bankOutcome": "Goal completion improves retention and creates momentum for the next savings objective"
       },
       {
