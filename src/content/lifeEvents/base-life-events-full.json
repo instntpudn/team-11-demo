@@ -1,0 +1,1650 @@
+[
+  {
+    "id": "chapter_1",
+    "age": 0,
+    "yearLabel": "Birth",
+    "title": "Birth",
+    "bankEvent": "A family account is opened",
+    "lifeStage": "childhood",
+    "emotionalTheme": "New Beginnings",
+    "description": "Alex's parents open a child savings account at Hero Bank — the first thread in a lifetime relationship.",
+    "businessCases": [
+      "deposit_growth",
+      "engagement"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "New family member detected - child savings account opened",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Parents view a projected balance chart for age 18.",
+        "bankOutcome": "New deposit relationship established with family"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Family goal tracking initiated - college fund projection set",
+        "insight": "",
+        "channel": "push",
+        "capability": "goals_trackers",
+        "customerReaction": "Parent taps the push, picks €50/month.",
+        "bankOutcome": "Increased account stickiness through goal tracking"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Recurring deposit pattern detected - monthly transfers starting",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "smart_savings",
+        "customerReaction": "Auto-transfer enabled in two taps.",
+        "bankOutcome": "Auto-transfer enabled - recurring deposits active"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Family engagement signal - goal sharing between parents",
+        "insight": "",
+        "channel": "push",
+        "capability": "engagement_builder",
+        "customerReaction": "Parent shares a screenshot to family group chat.",
+        "bankOutcome": "Cross-household referral initiated"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "New family member detected - child savings account opened",
+        "insight": "",
+        "channel": "email",
+        "capability": "engagement_builder",
+        "customerReaction": "Grandparents add €500 birthday gift.",
+        "bankOutcome": "New deposit relationship established with family"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_2",
+    "age": 16,
+    "yearLabel": "Age 16",
+    "title": "Becoming a teenager",
+    "bankEvent": "First debit card issued",
+    "lifeStage": "childhood",
+    "emotionalTheme": "Independence",
+    "description": "Alex gets a first debit card. Every swipe is a chance to teach a money habit that lasts a lifetime.",
+    "businessCases": [
+      "engagement",
+      "financial_wellness",
+      "account_primacy"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "First debit card activation - transaction pattern emerging",
+        "insight": "",
+        "channel": "push",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex opens the app, smiles at the friendly tone.",
+        "bankOutcome": "Youth engagement increased - app usage up 120%"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Retail spending detected - recurring merchant patterns forming",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex explores the category breakdown.",
+        "bankOutcome": "Recurring merchant alerts activated"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Educational spending signal - books and school supplies",
+        "insight": "",
+        "channel": "push",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex confirms it, learns to recognize recurring bills.",
+        "bankOutcome": "Budget tracking enabled for education category"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Social spending patterns - entertainment and dining",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "goals_trackers",
+        "customerReaction": "Alex sets a €200 'Headphones' goal.",
+        "bankOutcome": "Peer referral initiated"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "First debit card activation - transaction pattern emerging",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex shares the story with friends.",
+        "bankOutcome": "Youth engagement increased - app usage up 120%"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_3",
+    "age": 18,
+    "yearLabel": "Age 18",
+    "title": "Leaving home for college",
+    "bankEvent": "Tuition payments and student spending begin",
+    "lifeStage": "student",
+    "emotionalTheme": "New Chapter",
+    "description": "Tuition, books, dorm — Alex's life turns financially complex overnight. MyBank steadies the ride.",
+    "businessCases": [
+      "engagement",
+      "financial_wellness",
+      "account_primacy"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Tuition payment detected - large education transaction",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "cashflow_forecast",
+        "customerReaction": "Alex sees a 4-month runway projection.",
+        "bankOutcome": "Cashflow forecast prevents overdraft - saves €45/month"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Monthly spending volatility - college living expenses",
+        "insight": "",
+        "channel": "push",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex cancels 3 — saves €36/month.",
+        "bankOutcome": "Expense management features activated"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Subscription service accumulation - streaming and apps",
+        "insight": "",
+        "channel": "push",
+        "capability": "cashflow_forecast",
+        "customerReaction": "Alex adjusts spending; avoids overdraft.",
+        "bankOutcome": "Subscription optimization - €36 monthly savings identified"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Travel spending pattern - trips home and campus visits",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "smart_savings",
+        "customerReaction": "Alex auto-saves €400 on receipt.",
+        "bankOutcome": "Parent co-monitoring setup initiated"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Tuition payment detected - large education transaction",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex screenshots and texts mom.",
+        "bankOutcome": "Cashflow forecast prevents overdraft - saves €45/month"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_4",
+    "age": 19,
+    "yearLabel": "Age 19",
+    "title": "Building credit",
+    "bankEvent": "First credit card opened",
+    "lifeStage": "student",
+    "emotionalTheme": "Building Credit",
+    "description": "Alex opens a student credit card. MyBank teaches the hidden rules of credit before the first mistake.",
+    "businessCases": [
+      "credit_growth",
+      "financial_wellness",
+      "engagement",
+      "card_spend"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Credit card application detected - new credit line opened",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Alex reads the 60-second credit primer.",
+        "bankOutcome": "Credit utilization optimization - APR reduced by 3%"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Payment history pattern emerging - on-time payments starting",
+        "insight": "",
+        "channel": "push",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex makes an early €50 payment.",
+        "bankOutcome": "Payment reminder engagement increases on-time rate to 98%"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Credit utilization ratio monitored - 15% average",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "smart_savings",
+        "customerReaction": "Auto-pay enabled.",
+        "bankOutcome": "Credit score improves 32 points in 90 days"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Credit score improvement trajectory detected",
+        "insight": "",
+        "channel": "push",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex feels in control, opens the app daily.",
+        "bankOutcome": "Premium card tier becomes eligible"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Credit card application detected - new credit line opened",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "offers",
+        "customerReaction": "Alex accepts in one tap.",
+        "bankOutcome": "Credit utilization optimization - APR reduced by 3%"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_5",
+    "age": 22,
+    "yearLabel": "Age 22",
+    "title": "Graduating college",
+    "bankEvent": "Student spending pattern ends, life-stage transition detected",
+    "lifeStage": "early_career",
+    "emotionalTheme": "Achievement",
+    "description": "Tuition payments stop. Student spending fades. A whole new financial chapter begins.",
+    "businessCases": [
+      "engagement",
+      "financial_wellness",
+      "account_primacy",
+      "card_spend"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Income deposit detected - first salary received",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Alex reads the 5-card story.",
+        "bankOutcome": "Student loan payoff accelerated by 8 months"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Student loan payment initiated - repayment plan active",
+        "insight": "",
+        "channel": "email",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex bookmarks the checklist.",
+        "bankOutcome": "Housing savings goal created - €150K target set"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Housing search signals - real estate searches and rentals",
+        "insight": "",
+        "channel": "push",
+        "capability": "cashflow_forecast",
+        "customerReaction": "Alex marks the date in calendar.",
+        "bankOutcome": "Debt-to-income ratio improves to 22%"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Lifestyle inflation patterns - spending increases with income",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "direct_deposit_switch",
+        "customerReaction": "Alex starts the switch flow.",
+        "bankOutcome": "Financial wellness score increases to 78/100"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Income deposit detected - first salary received",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Alex follows the suggested budget.",
+        "bankOutcome": "Student loan payoff accelerated by 8 months"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_6",
+    "age": 23,
+    "yearLabel": "Age 23",
+    "title": "Starting a career",
+    "bankEvent": "First payroll deposit detected",
+    "lifeStage": "early_career",
+    "emotionalTheme": "Independence",
+    "description": "A real paycheck arrives. So does the temptation to spend it. MyBank turns the moment into primacy and savings.",
+    "businessCases": [
+      "deposit_growth",
+      "account_primacy",
+      "financial_wellness"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Income stability confirmed - consistent salary deposits",
+        "insight": "",
+        "channel": "push",
+        "capability": "direct_deposit_switch",
+        "customerReaction": "Alex starts the one-tap switch.",
+        "bankOutcome": "Tax refund optimized - €2,100 additional annual income"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Tax withholding optimization - W4 adjustment opportunity",
+        "insight": "",
+        "channel": "push",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex slows down, opens the spend breakdown.",
+        "bankOutcome": "Retirement savings plan recommended - €300/month auto-enrollment"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Retirement savings signal - 401(k) eligibility reached",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "smart_savings",
+        "customerReaction": "Alex turns on auto-save.",
+        "bankOutcome": "Benefits coverage optimized - 23% cost savings"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Employee benefits enrollment - health insurance activated",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "goals_trackers",
+        "customerReaction": "Goal accepted; bumps to €75/paycheck.",
+        "bankOutcome": "Financial planning session scheduled"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Income stability confirmed - consistent salary deposits",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex shares the recap on social.",
+        "bankOutcome": "Tax refund optimized - €2,100 additional annual income"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_7",
+    "age": 23,
+    "yearLabel": "Age 23",
+    "title": "Repaying student debt",
+    "bankEvent": "Loan-servicer payments begin",
+    "lifeStage": "early_career",
+    "emotionalTheme": "Responsibility",
+    "description": "The loan servicer's first bill arrives. MyBank turns dread into a clear, manageable plan.",
+    "businessCases": [
+      "financial_wellness",
+      "retention",
+      "servicing_efficiency"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Loan servicer consolidation opportunity detected",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "cashflow_forecast",
+        "customerReaction": "Alex sees a clear next-month chart.",
+        "bankOutcome": "Consolidated loans - APR reduced to 4.2%"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Interest rate refinance eligible - 1.5% improvement possible",
+        "insight": "",
+        "channel": "push",
+        "capability": "cashflow_forecast",
+        "customerReaction": "Alex transfers in one tap.",
+        "bankOutcome": "Payoff timeline accelerated by 4 years"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Accelerated payoff plan - 5 year vs 10 year scenarios",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "goals_trackers",
+        "customerReaction": "Alex explores the payoff scenarios.",
+        "bankOutcome": "Total interest saved - €18,500"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Forgiveness program qualification evaluated",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "smart_savings",
+        "customerReaction": "Round-ups enabled.",
+        "bankOutcome": "Debt-free milestone achievable by age 30"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Loan servicer consolidation opportunity detected",
+        "insight": "",
+        "channel": "push",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex feels momentum, considers refinance later.",
+        "bankOutcome": "Consolidated loans - APR reduced to 4.2%"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_8",
+    "age": 24,
+    "yearLabel": "Age 24",
+    "title": "Gaining financial footing",
+    "bankEvent": "Recurring surplus cash detected",
+    "lifeStage": "early_career",
+    "emotionalTheme": "Security",
+    "description": "Cash is finally piling up in checking. MyBank turns idle balance into resilience — automatically.",
+    "businessCases": [
+      "deposit_growth",
+      "financial_wellness",
+      "engagement"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Emergency fund target reached - 6 months expenses saved",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex taps to learn more.",
+        "bankOutcome": "Emergency fund fully funded - financial security improved"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Investment readiness signal - €50K liquid assets available",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "offers",
+        "customerReaction": "HYSA opened in the app.",
+        "bankOutcome": "Investment account opened - wealth building begins"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Insurance gap identified - life and disability needs",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "goals_trackers",
+        "customerReaction": "Goal accepted.",
+        "bankOutcome": "Insurance protection activated - €500K life coverage"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Net worth positive milestone achieved - €85K",
+        "insight": "",
+        "channel": "push",
+        "capability": "smart_savings",
+        "customerReaction": "Smart auto-save enabled.",
+        "bankOutcome": "Net worth tracking dashboard activated"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Emergency fund target reached - 6 months expenses saved",
+        "insight": "",
+        "channel": "push",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex bumps weekly save up.",
+        "bankOutcome": "Emergency fund fully funded - financial security improved"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_9",
+    "age": 25,
+    "yearLabel": "Age 25",
+    "title": "Buying a first car",
+    "bankEvent": "Auto-dealer charge and insurance payment detected",
+    "lifeStage": "young_adult",
+    "emotionalTheme": "Freedom",
+    "description": "Alex visits a dealership. MyBank catches the moment of intent — and offers a better loan than the dealer.",
+    "businessCases": [
+      "credit_growth",
+      "product_conversion",
+      "financial_wellness"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Auto loan application detected - vehicle purchase signals",
+        "insight": "",
+        "channel": "push",
+        "capability": "offers",
+        "customerReaction": "Alex opens the rate offer mid-dealership visit.",
+        "bankOutcome": "Auto loan approved at Prime rate - 4.9% APR"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Insurance quote requested - auto coverage research",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "cashflow_forecast",
+        "customerReaction": "Alex sees the trade-off chart.",
+        "bankOutcome": "Insurance bundled - 18% multi-policy discount"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Payment capacity confirmed - debt-to-income ratio strong",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "offers",
+        "customerReaction": "Loan approved at 5.9%.",
+        "bankOutcome": "Loan terms optimized - 60 months vs 72 months savings"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Credit score peak achieved - 752 excellent tier",
+        "insight": "",
+        "channel": "email",
+        "capability": "offers",
+        "customerReaction": "Alex requests a quote.",
+        "bankOutcome": "Vehicle coverage and roadside assistance included"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Auto loan application detected - vehicle purchase signals",
+        "insight": "",
+        "channel": "push",
+        "capability": "cashflow_forecast",
+        "customerReaction": "Alex feels reassured.",
+        "bankOutcome": "Auto loan approved at Prime rate - 4.9% APR"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_10",
+    "age": 25,
+    "yearLabel": "Age 25",
+    "title": "Tax season",
+    "bankEvent": "€2,400 IRS refund deposit",
+    "lifeStage": "young_adult",
+    "emotionalTheme": "Windfall",
+    "description": "€2,400 hits Alex's checking. MyBank splits it perfectly between savings, debt, and a little fun.",
+    "businessCases": [
+      "deposit_growth",
+      "financial_wellness",
+      "product_conversion",
+      "card_spend"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "W2 income maximization opportunity - refund projection €3,200",
+        "insight": "",
+        "channel": "push",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex opens the suggestion.",
+        "bankOutcome": "Tax refund optimized - €3,200 received within 2 weeks"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Deduction eligibility evaluated - education and home office",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Alex accepts with one tap.",
+        "bankOutcome": "Deduction strategy implemented - saves €1,800 next year"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Tax bracket optimization - additional withholding considered",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "smart_savings",
+        "customerReaction": "Alex sees goal progress jump.",
+        "bankOutcome": "Withholding adjusted - monthly cash flow improved"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Record organization recommendations - digital filing system",
+        "insight": "",
+        "channel": "push",
+        "capability": "goals_trackers",
+        "customerReaction": "Alex confirms the payment.",
+        "bankOutcome": "Tax organization system adopted"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "W2 income maximization opportunity - refund projection €3,200",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex feels in control.",
+        "bankOutcome": "Tax refund optimized - €3,200 received within 2 weeks"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_11",
+    "age": 27,
+    "yearLabel": "Age 27",
+    "title": "Getting engaged",
+    "bankEvent": "Jewelry merchant purchase €4,800",
+    "lifeStage": "young_adult",
+    "emotionalTheme": "Love",
+    "description": "A jewelry purchase signals a life-changing moment. MyBank turns it into a household relationship.",
+    "businessCases": [
+      "deposit_growth",
+      "engagement",
+      "financial_wellness",
+      "card_spend"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Joint financial planning initiated - household consolidation",
+        "insight": "",
+        "channel": "push",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex laughs, taps yes.",
+        "bankOutcome": "Joint account setup - household financial integration"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Income synchronization detected - dual income optimization",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "goals_trackers",
+        "customerReaction": "Alex and partner accept.",
+        "bankOutcome": "Combined credit profile built - mortgage pre-approval"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Combined debt evaluation - mortgage capacity assessment",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "engagement_builder",
+        "customerReaction": "Partner invited via shared link.",
+        "bankOutcome": "Wedding budget tracked - prevents overspending"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Wedding budget planning signals - expense forecasting",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex enables tagging.",
+        "bankOutcome": "Shared financial goals aligned - €80K house fund"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Joint financial planning initiated - household consolidation",
+        "insight": "",
+        "channel": "email",
+        "capability": "offers",
+        "customerReaction": "Alex schedules an in-branch open.",
+        "bankOutcome": "Joint account setup - household financial integration"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_12",
+    "age": 30,
+    "yearLabel": "Age 30",
+    "title": "Becoming a parent",
+    "bankEvent": "Hospital and baby-merchant spend surge",
+    "lifeStage": "family",
+    "emotionalTheme": "Joy & Responsibility",
+    "description": "The hospital bill is just the beginning. MyBank walks the new family through the financial reshaping of parenthood.",
+    "businessCases": [
+      "engagement",
+      "financial_wellness",
+      "retention",
+      "deposit_growth"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Dependent claim eligible - new tax benefits available",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Alex breathes easier.",
+        "bankOutcome": "Tax credits applied - €2,000 annual child tax credit"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Childcare expense detection - 529 college savings opportunity",
+        "insight": "",
+        "channel": "push",
+        "capability": "offers",
+        "customerReaction": "Account opened.",
+        "bankOutcome": "529 plan opened - college fund grows tax-free"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Insurance needs reassessment - family coverage gap identified",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "cashflow_forecast",
+        "customerReaction": "Alex follows the runway plan.",
+        "bankOutcome": "Life insurance updated - family protection secured"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Estate planning signal - will and beneficiary review recommended",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex follows the suggestions.",
+        "bankOutcome": "Estate documents created - peace of mind established"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Dependent claim eligible - new tax benefits available",
+        "insight": "",
+        "channel": "push",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex shares the recap.",
+        "bankOutcome": "Tax credits applied - €2,000 annual child tax credit"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_13",
+    "age": 32,
+    "yearLabel": "Age 32",
+    "title": "Dreaming of homeownership",
+    "bankEvent": "Mortgage-rate searches and savings shift",
+    "lifeStage": "homeowner",
+    "emotionalTheme": "Ambition",
+    "description": "Alex starts dreaming of a first home. MyBank turns the dream into a tracked, automated, achievable plan.",
+    "businessCases": [
+      "deposit_growth",
+      "product_conversion",
+      "engagement"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Mortgage readiness assessment - down payment progress tracked",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Alex opens the planner.",
+        "bankOutcome": "Down payment goal achieved - 20% saved (€60K)"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Credit score optimization - 780+ required for best rates",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "goals_trackers",
+        "customerReaction": "Goal accepted.",
+        "bankOutcome": "Credit optimized - mortgage rate locked at 4.2%"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Debt-to-income improvement - mortgage capacity grows",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "smart_savings",
+        "customerReaction": "Auto-save enabled.",
+        "bankOutcome": "First-time buyer program identified - €15K incentive"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Home affordability analysis - price range recommendation",
+        "insight": "",
+        "channel": "push",
+        "capability": "smart_savings",
+        "customerReaction": "Alex confirms the boost.",
+        "bankOutcome": "Home purchase pre-approval completed"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Mortgage readiness assessment - down payment progress tracked",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex feels confident, stays the course.",
+        "bankOutcome": "Down payment goal achieved - 20% saved (€60K)"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_14",
+    "age": 34,
+    "yearLabel": "Age 34",
+    "title": "Buying a first home",
+    "bankEvent": "Mortgage funded, fixed costs reset",
+    "lifeStage": "homeowner",
+    "emotionalTheme": "Achievement",
+    "description": "Closing day. Alex's life — and money — reshape overnight. MyBank is the calm voice through it all.",
+    "businessCases": [
+      "product_conversion",
+      "engagement",
+      "retention",
+      "account_primacy"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Mortgage application submitted - underwriting in progress",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Alex follows the 5-card homeowner story.",
+        "bankOutcome": "Mortgage funded - €300K loan at 4.2% APR"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Closing date scheduled - 45 days to completion",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "cashflow_forecast",
+        "customerReaction": "Alex accepts the new budget.",
+        "bankOutcome": "Home insurance secured - €1,200/year bundled rate"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Home insurance quotes received - coverage options compared",
+        "insight": "",
+        "channel": "push",
+        "capability": "smart_savings",
+        "customerReaction": "Auto-save scheduled.",
+        "bankOutcome": "Homeownership begins - asset building accelerates"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Property tax and HOA analysis completed",
+        "insight": "",
+        "channel": "email",
+        "capability": "offers",
+        "customerReaction": "Alex switches.",
+        "bankOutcome": "Wealth trajectory improves - real estate equity grows"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Mortgage application submitted - underwriting in progress",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex feels capable.",
+        "bankOutcome": "Mortgage funded - €300K loan at 4.2% APR"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_15",
+    "age": 37,
+    "yearLabel": "Age 37",
+    "title": "Renovating the home",
+    "bankEvent": "Hardware and contractor spend pattern detected",
+    "lifeStage": "homeowner",
+    "emotionalTheme": "Investment",
+    "description": "Hardware-store charges and contractor payments tell a clear story: Alex is renovating. MyBank offers the right financing at the right time.",
+    "businessCases": [
+      "product_conversion",
+      "credit_growth",
+      "engagement",
+      "card_spend"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Home improvement spending detected - construction loans available",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex taps to see options.",
+        "bankOutcome": "Home equity line available - €80K HELOC established"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Equity buildup signals - refinance opportunity evaluated",
+        "insight": "",
+        "channel": "push",
+        "capability": "offers",
+        "customerReaction": "Alex compares the math.",
+        "bankOutcome": "Renovation funded - home value increases 12%"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Property value appreciation - appraisal increases by 8%",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "offers",
+        "customerReaction": "HELOC approved at €50K line.",
+        "bankOutcome": "Refinance completed - rate improved to 3.8%"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Tax deduction analysis - home office and improvements",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Balance moved.",
+        "bankOutcome": "Net worth increased by €75K from equity gains"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Home improvement spending detected - construction loans available",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex uses tracker daily.",
+        "bankOutcome": "Home equity line available - €80K HELOC established"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_16",
+    "age": 40,
+    "yearLabel": "Age 40",
+    "title": "Hitting career peak",
+    "bankEvent": "Payroll up 28%, idle balance growing",
+    "lifeStage": "midlife",
+    "emotionalTheme": "Confidence",
+    "description": "Alex's paycheck is bigger, but cash piles up doing nothing. MyBank turns idle into invested.",
+    "businessCases": [
+      "deposit_growth",
+      "wealth",
+      "product_conversion",
+      "card_spend"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "High income phase detected - €250K+ annual earnings",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex opens the recommendation.",
+        "bankOutcome": "Tax-efficient investment strategy implemented"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Investment capacity maximized - €30K+ annual contributions",
+        "insight": "",
+        "channel": "push",
+        "capability": "offers",
+        "customerReaction": "Sweep accepted.",
+        "bankOutcome": "Wealth management advisor engagement recommended"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Tax optimization critical - wealth preservation strategies",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Alex requests info.",
+        "bankOutcome": "Executive compensation optimized - €45K additional after-tax"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Executive benefits available - stock options and deferred comp",
+        "insight": "",
+        "channel": "banker",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex books a call.",
+        "bankOutcome": "Generational wealth building initiated"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "High income phase detected - €250K+ annual earnings",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "offers",
+        "customerReaction": "Rollover initiated.",
+        "bankOutcome": "Tax-efficient investment strategy implemented"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_17",
+    "age": 45,
+    "yearLabel": "Age 45",
+    "title": "Sending a child to college",
+    "bankEvent": "Education-savings shortfall projected",
+    "lifeStage": "midlife",
+    "emotionalTheme": "Legacy",
+    "description": "Alex's child is approaching college. MyBank balances education savings with retirement — without forcing a trade-off.",
+    "businessCases": [
+      "deposit_growth",
+      "engagement",
+      "wealth"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "529 plan maturation - college funding distributions begin",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Alex opens the planner.",
+        "bankOutcome": "529 distributions deployed - €80K college funding released"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Parent Plus loan eligibility evaluated - funding gap analysis",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "offers",
+        "customerReaction": "529 opened.",
+        "bankOutcome": "Family financial aid optimized - €18K in aid identified"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Scholarship optimization - financial aid packaging reviewed",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "goals_trackers",
+        "customerReaction": "Split accepted.",
+        "bankOutcome": "College costs managed - 4-year plan projected and funded"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "College savings strategy transition - spending phase begins",
+        "insight": "",
+        "channel": "email",
+        "capability": "engagement_builder",
+        "customerReaction": "Invites sent.",
+        "bankOutcome": "Education expense tax benefits maximized"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "529 plan maturation - college funding distributions begin",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex makes it the family meeting tool.",
+        "bankOutcome": "529 distributions deployed - €80K college funding released"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_18",
+    "age": 55,
+    "yearLabel": "Age 55",
+    "title": "Approaching retirement",
+    "bankEvent": "Projected retirement income below target",
+    "lifeStage": "pre_retirement",
+    "emotionalTheme": "Urgency",
+    "description": "10 years to retirement and the math doesn't add up. MyBank shows it clearly — and offers the path forward.",
+    "businessCases": [
+      "wealth",
+      "financial_wellness",
+      "deposit_growth"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Retirement readiness assessment - 10 year countdown activated",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Alex absorbs the number.",
+        "bankOutcome": "Retirement projection updated - €2.5M portfolio sufficient"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Portfolio rebalancing signals - risk reduction strategy",
+        "insight": "",
+        "channel": "push",
+        "capability": "offers",
+        "customerReaction": "Activated.",
+        "bankOutcome": "Asset allocation adjusted - 50% equities, 50% bonds"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Social Security timing analysis - claiming strategy evaluated",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "cashflow_forecast",
+        "customerReaction": "Alex schedules the redirect.",
+        "bankOutcome": "Social Security claiming optimized - €42K annual benefit"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Healthcare cost planning - Medicare and insurance gaps",
+        "insight": "",
+        "channel": "banker",
+        "capability": "engagement_builder",
+        "customerReaction": "Books a session.",
+        "bankOutcome": "Retirement lifestyle planning completed"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Retirement readiness assessment - 10 year countdown activated",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex feels back in control.",
+        "bankOutcome": "Retirement projection updated - €2.5M portfolio sufficient"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_19",
+    "age": 65,
+    "yearLabel": "Age 65",
+    "title": "Entering retirement",
+    "bankEvent": "Payroll stops, Social Security and distributions begin",
+    "lifeStage": "retirement",
+    "emotionalTheme": "Freedom",
+    "description": "Payroll stops. New income streams turn on. MyBank is the steady guide through the most-at-risk transition in banking.",
+    "businessCases": [
+      "retention",
+      "account_primacy",
+      "wealth",
+      "financial_wellness"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Retirement date reached - income transition activated",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Alex follows the new cash-flow story.",
+        "bankOutcome": "Retirement income established - €180K annual cash flow"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Pension and Social Security claims processed",
+        "insight": "",
+        "channel": "banker",
+        "capability": "cashflow_forecast",
+        "customerReaction": "Advisor session booked.",
+        "bankOutcome": "Tax burden reduced - 22% effective tax rate"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Distribution strategy optimized - tax-efficient withdrawals",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex feels secure.",
+        "bankOutcome": "Healthcare costs secured - Medicare and supplemental coverage"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Legacy planning prioritized - wealth transfer preparation",
+        "insight": "",
+        "channel": "push",
+        "capability": "personalized_insights",
+        "customerReaction": "Alex schedules planning call.",
+        "bankOutcome": "Retirement lifestyle sustainable - 30+ year projection"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Retirement date reached - income transition activated",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "engagement_builder",
+        "customerReaction": "Alex stays loyal.",
+        "bankOutcome": "Retirement income established - €180K annual cash flow"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  },
+  {
+    "id": "chapter_20",
+    "age": 72,
+    "yearLabel": "Age 72",
+    "title": "Planning a legacy",
+    "bankEvent": "Family transfers and estate-attorney payments",
+    "lifeStage": "legacy",
+    "emotionalTheme": "Purpose",
+    "description": "Alex turns thoughts to family and legacy. MyBank ensures the relationship — and the wealth — pass to the next generation.",
+    "businessCases": [
+      "wealth",
+      "retention",
+      "engagement"
+    ],
+    "financialSignals": [],
+    "personeticsCapabilities": [],
+    "customerStory": "",
+    "bankStory": "",
+    "microJourney": [
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Estate planning finalized - will and trusts established",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "transaction_intelligence",
+        "customerReaction": "Alex opens the planner.",
+        "bankOutcome": "Estate plan reduces taxes by €350K"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Charitable giving goals identified - impact strategy",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Tracker enabled.",
+        "bankOutcome": "Charitable foundation established - €2M endowment"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Family wealth transfer planning - multigenerational strategy",
+        "insight": "",
+        "channel": "banker",
+        "capability": "engagement_builder",
+        "customerReaction": "Calls scheduled.",
+        "bankOutcome": "Family wealth transfer secured - tax-efficient distribution"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Life insurance portfolio optimization - legacy funding",
+        "insight": "",
+        "channel": "in_app",
+        "capability": "offers",
+        "customerReaction": "DAF opened.",
+        "bankOutcome": "Generational legacy built - impact defined for 3 generations"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Estate planning finalized - will and trusts established",
+        "insight": "",
+        "channel": "banker",
+        "capability": "engagement_builder",
+        "customerReaction": "Family accounts linked.",
+        "bankOutcome": "Estate plan reduces taxes by €350K"
+      }
+    ],
+    "businessImpact": [],
+    "demoAssets": {
+      "icon": "📍",
+      "colorTheme": "blue",
+      "channelExamples": []
+    }
+  }
+]

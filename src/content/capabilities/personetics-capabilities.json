@@ -1,0 +1,56 @@
+[
+  {
+    "id": "transaction_intelligence",
+    "label": "Transaction Intelligence",
+    "description": "Merchant enrichment, recurring transaction detection, income detection, spending categorization, and balance pattern recognition.",
+    "category": "Data Layer"
+  },
+  {
+    "id": "personalized_insights",
+    "label": "Personalized Insights",
+    "description": "Daily financial insights, spending behavior nudges, balance alerts, surplus cash insights, subscription insights, and fee avoidance insights.",
+    "category": "Engagement"
+  },
+  {
+    "id": "cashflow_forecast",
+    "label": "Cash-Flow Forecast",
+    "description": "Predictive cash-flow modeling, overdraft risk scoring, payment timing guidance, income volatility detection, and savings opportunity identification.",
+    "category": "Predictive Guidance"
+  },
+  {
+    "id": "goals_trackers",
+    "label": "Goals & Trackers",
+    "description": "Emergency fund, down payment, student loan payoff, debt reduction, vacation, child savings, and retirement readiness goal tracking.",
+    "category": "Goal Management"
+  },
+  {
+    "id": "smart_savings",
+    "label": "Smart Savings",
+    "description": "Roundups, auto-save, surplus sweep, savings vaults, and goal-based automated transfers.",
+    "category": "Automation"
+  },
+  {
+    "id": "engagement_builder",
+    "label": "Engagement Builder",
+    "description": "Business-rule configuration, journey logic, segmentation, channel control, A/B tests, and performance tracking.",
+    "category": "Orchestration"
+  },
+  {
+    "id": "direct_deposit_switch",
+    "label": "Direct Deposit Switch",
+    "description": "Detects payroll not deposited at primary bank and triggers a frictionless direct deposit switching journey.",
+    "category": "Offers & Conversion"
+  },
+  {
+    "id": "offers",
+    "label": "Contextual Offers",
+    "description": "Card upgrade, HELOC offer, personal loan, mortgage readiness, wealth referral, and premium checking qualifier.",
+    "category": "Offers & Conversion"
+  },
+  {
+    "id": "gen_ai",
+    "label": "GenAI Assistant",
+    "description": "Conversational guidance for cash flow, spending explanation, affordability checks, and savings goal coaching.",
+    "category": "Conversational AI"
+  }
+]

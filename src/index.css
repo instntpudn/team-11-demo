@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+
+  --color-ink-950: #0a0e1a;
+  --color-ink-900: #0f1422;
+  --color-ink-800: #1a2032;
+  --color-ink-700: #2a3146;
+
+  --color-stage-50: #fafafa;
+  --color-stage-100: #f5f6f8;
+  --color-stage-200: #e9ebf0;
+  --color-stage-300: #d6dae2;
+
+  --color-slate-text: #0f172a;
+  --color-slate-muted: #64748b;
+  --color-slate-soft: #94a3b8;
+
+  --color-brand-50: #fffbe6;
+  --color-brand-100: #fff3b3;
+  --color-brand-300: #ffd84d;
+  --color-brand-500: #f5c518;
+  --color-brand-600: #d9a800;
+  --color-brand-700: #a37e00;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: #f5f6f8;
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "cv11", "ss01";
+}
+
+::selection {
+  background: #fff3b3;
+  color: #0f172a;
+}
+
+/* Subtle scrollbar in stage */
+.stage-scroll::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+.stage-scroll::-webkit-scrollbar-thumb {
+  background: #d6dae2;
+  border-radius: 4px;
+}
+.stage-scroll::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Sidebar scrollbar (dark) */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: #2a3146;
+  border-radius: 4px;
+}
+
+/* ===== DESIGN SYSTEM: BUTTONS ===== */
+
+/* Base button styles */
+@layer components {
+  /* Primary button - Brand amber */
+  .btn-primary {
+    @apply px-4 bg-amber-500 hover:bg-amber-600 active:bg-amber-700 disabled:bg-slate-300 disabled:text-slate-400 text-white font-semibold rounded text-sm transition-colors duration-200 cursor-pointer;
+  }
+
+  /* Secondary button - White with border */
+  .btn-secondary {
+    @apply px-4 bg-white border-2 border-slate-300 hover:border-slate-400 text-slate-900 font-semibold rounded text-sm transition-colors duration-200 cursor-pointer;
+  }
+
+  /* Tertiary button - Slate background */
+  .btn-tertiary {
+    @apply px-4 bg-slate-200 hover:bg-slate-300 disabled:bg-slate-100 disabled:text-slate-300 text-slate-700 font-semibold rounded text-sm transition-colors duration-200 cursor-pointer;
+  }
+
+  /* Success button - Emerald */
+  .btn-success {
+    @apply px-4 bg-emerald-500 hover:bg-emerald-600 active:bg-emerald-700 text-white font-semibold rounded text-sm transition-colors duration-200 cursor-pointer;
+  }
+
+  /* Danger button - Red */
+  .btn-danger {
+    @apply px-4 bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-semibold rounded text-sm transition-colors duration-200 cursor-pointer;
+  }
+
+  /* Icon button - No padding, just icon */
+  .btn-icon {
+    @apply flex items-center justify-center text-slate-700 hover:text-slate-900 transition-colors duration-200 cursor-pointer;
+  }
+
+  /* Button group container */
+  .btn-group {
+    @apply flex gap-2;
+  }
+
+  /* Full width button wrapper */
+  .btn-full {
+    @apply w-full;
+  }
+
+  /* Large button (height) */
+  .btn-lg {
+    @apply h-10;
+  }
+
+  /* Medium button (default) */
+  .btn-md {
+    @apply h-8;
+  }
+
+  /* Small button */
+  .btn-sm {
+    @apply h-6 px-2 text-xs;
+  }
+
+  /* Flex equal width buttons */
+  .btn-equal {
+    @apply flex-1;
+  }
+
+  /* Back button - with icon */
+  .btn-back {
+    @apply flex items-center gap-1 px-3;
+  }
+
+  /* ===== DESIGN SYSTEM: PAGE LAYOUT ===== */
+
+  /* Standard page container - full height with fixed header and footer */
+  .page-container {
+    @apply h-screen flex flex-col;
+  }
+
+  /* Fixed header at top */
+  .page-header {
+    @apply flex-shrink-0 px-4 py-2 border-b-2 border-slate-200 bg-gradient-to-br from-slate-50 to-slate-100;
+  }
+
+  /* Scrollable content area in middle */
+  .page-content {
+    @apply flex-1 overflow-y-auto px-4 pt-3 pb-16;
+  }
+
+  /* Fixed footer with buttons at bottom */
+  .page-footer {
+    @apply fixed bottom-0 left-0 right-0 h-14 flex-shrink-0 px-4 py-2 bg-gradient-to-br from-slate-50 to-slate-100 border-t-2 border-slate-200 flex gap-2 items-center;
+  }
+
+  /* ===== DESIGN SYSTEM: SPACING ===== */
+
+  /* Standard spacing scale */
+  .space-xs {
+    @apply space-y-1;
+  }
+
+  .space-sm {
+    @apply space-y-2;
+  }
+
+  .space-md {
+    @apply space-y-3;
+  }
+
+  .space-lg {
+    @apply space-y-4;
+  }
+
+  /* ===== DESIGN SYSTEM: CARDS ===== */
+
+  .card {
+    @apply p-2 rounded-lg border-2 bg-white;
+  }
+
+  .card-amber {
+    @apply p-2 rounded-lg border-2 border-amber-300 bg-amber-50;
+  }
+
+  .card-emerald {
+    @apply p-2 rounded-lg border-2 border-emerald-300 bg-emerald-50;
+  }
+
+  .card-slate {
+    @apply p-2 rounded-lg border-2 border-slate-200 bg-slate-50;
+  }
+
+  /* ===== DESIGN SYSTEM: TYPOGRAPHY ===== */
+
+  .text-headline {
+    @apply text-xl font-bold text-slate-900;
+  }
+
+  .text-subheading {
+    @apply text-xs text-slate-600;
+  }
+
+  .text-label {
+    @apply text-xs font-semibold text-slate-500 uppercase tracking-widest;
+  }
+}

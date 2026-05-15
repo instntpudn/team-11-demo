@@ -1,0 +1,82 @@
+[
+  {
+    "id": "deposit_growth",
+    "label": "Balance Growth",
+    "icon": "trending-up",
+    "color": "#22c55e",
+    "description": "Increase balances, recurring inflows, savings balances, and account primacy.",
+    "lensStory": "Every life transition — a first job, a tax refund, a new baby — creates a fleeting window to grow deposits. When MyBank detects these signals and acts in the moment, idle cash that would otherwise leave the bank stays and compounds. Across the 20 life moments shown here, timely Balance Growth journeys produce an average 18% increase in primary account balances and a measurable lift in household AUM — turning episodic deposits into permanent wealth held at Hero Bank."
+  },
+  {
+    "id": "account_primacy",
+    "label": "Primacy",
+    "icon": "star",
+    "color": "#f59e0b",
+    "description": "Make the bank the customer's main financial relationship.",
+    "lensStory": "Primacy is won or lost at life moments. When a customer lands their first paycheck, gets engaged, or buys a home, they decide which institution will be their financial home. MyBank intercepts those moments with direct-deposit nudges, auto-transfer prompts, and payroll-switch flows — delivered on the exact day the customer is mentally open to change. Customers touched by Primacy journeys show 2.4× the product depth of untouched peers, making Hero Bank the account that everything else flows through."
+  },
+  {
+    "id": "financial_wellness",
+    "label": "Financial Health",
+    "icon": "heart",
+    "color": "#ec4899",
+    "description": "Help customers improve money habits and financial resilience.",
+    "lensStory": "When customers feel financially confident, they borrow more, save more, and stay longer. MyBank surfaces budget alerts, spend anomalies, and savings projections at the exact life moments — student loan start, new baby, retirement gap — when guidance matters most. Financial Health journeys drive a measurable lift in money-confidence scores and a 31% reduction in overdraft fees, transforming Hero Bank from a transaction processor into a trusted financial coach."
+  },
+  {
+    "id": "product_conversion",
+    "label": "Product Sales",
+    "icon": "package",
+    "color": "#8b5cf6",
+    "description": "Identify and activate relevant next-best products.",
+    "lensStory": "The right product at the wrong moment is noise. The right product at the right moment is advice. MyBank maps every life stage to a natural product need — a 529 plan when a baby arrives, a mortgage pre-approval when savings patterns shift, an auto loan when a dealer charge is detected. The result: 3× higher conversion compared to untargeted campaigns, with a product portfolio that grows in lockstep with the customer's life."
+  },
+  {
+    "id": "engagement",
+    "label": "Engagement Lift",
+    "icon": "zap",
+    "color": "#3b82f6",
+    "description": "Increase digital engagement and repeat usage.",
+    "lensStory": "Life moments are the bank's highest-engagement events. Push notifications tied to a real financial signal see 68% open rates versus 22% for generic campaigns. MyBank turns Hero Bank's app from a balance-checking utility into a daily financial companion. Each of the 20 chapters deepens the habit — the customer who engaged with a college-graduation insight is 4× more likely to open the app the following month."
+  },
+  {
+    "id": "retention",
+    "label": "Retention",
+    "icon": "anchor",
+    "color": "#06b6d4",
+    "description": "Reduce attrition and deepen customer trust.",
+    "lensStory": "Customers don't leave all at once — they drift, one unmet need at a time. Student loans begin and nobody explains the impact. A baby arrives and nobody helps with the budget. Retirement looms and nobody flags the shortfall. MyBank detects early-warning signals in transaction data before the customer calls a competitor, and intervenes with proactive support. Hero Bank sees up to 24% lower 90-day attrition among customers who receive a timely moment during a high-stress life event."
+  },
+  {
+    "id": "servicing_efficiency",
+    "label": "Cost to Serve",
+    "icon": "settings",
+    "color": "#64748b",
+    "description": "Reduce calls and support cost through proactive digital guidance.",
+    "lensStory": "Every inbound call costs Hero Bank an average of €8–€15. MyBank eliminates the trigger. A push notification sent before student loan payments begin eliminates 40% of first-payment confusion calls. A proactive fee-waiver offer after an overdraft cuts dispute calls in half. Across the full customer lifecycle, MyBank-driven proactive messaging deflects an estimated €12 per customer per year in servicing cost — because customers feel helped, not ignored."
+  },
+  {
+    "id": "credit_growth",
+    "label": "Credit Growth",
+    "icon": "credit-card",
+    "color": "#f97316",
+    "description": "Grow responsible borrowing relationships.",
+    "lensStory": "Credit decisions made at the right life moment are better for the customer and better for the bank. MyBank paces credit expansion responsibly — offering a first credit card when spending patterns show readiness, an auto loan when a dealer transaction is detected, a HELOC when home equity has built. The result: higher approval-rate efficiency, lower early delinquency, and a 2.1× increase in credit product activation versus traditional outbound channels."
+  },
+  {
+    "id": "card_spend",
+    "label": "Card Spend",
+    "icon": "shopping-bag",
+    "color": "#a855f7",
+    "description": "Increase card usage and maximize perceived card value.",
+    "lensStory": "Card-spend loyalty is built in moments, not months. When MyBank spots a wedding spend surge, it surfaces a points-maximisation tip. When a college student starts buying textbooks, it highlights cashback categories. When a tax refund lands, it reminds the customer how much they earned back. These micro-moments of perceived value keep the Hero Bank card top-of-wallet across every life chapter. Average monthly spend per active cardholder lifts 14% in journeys where a card-spend insight was triggered within the prior 30 days."
+  },
+  {
+    "id": "wealth",
+    "label": "Wealth Management",
+    "icon": "bar-chart-2",
+    "color": "#d97706",
+    "description": "Move affluent customers into wealth management relationships.",
+    "lensStory": "The window to migrate a mass-affluent customer into wealth management is narrow and unpredictable — it opens at an inheritance, a career peak, a business sale, a retirement trigger. MyBank watches for those signals across all 20 life moments and routes the right customers to an advisor at exactly the right time. Banker-channel journeys triggered by MyBank convert at 3× the rate of branch walk-ins at the same AUM stage, making wealth acquisition a data-driven, always-on engine."
+  }
+]
