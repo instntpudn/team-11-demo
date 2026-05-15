@@ -127,35 +127,7 @@
         "channel": "chatbot",
         "capability": "goals_trackers",
         "customerReaction": "Paul enables weekly transfer to Smart Start Money Pot.",
-        "bankOutcome": "Goal tracker adoption increases retention and repeat deposits.",
-        "chatbotConversation": {
-          "messages": [
-            {
-              "role": "user",
-              "text": "Can you help me save for GAA gear before my birthday?"
-            },
-            {
-              "role": "ai",
-              "text": "Yes. I can set a Smart Start goal of €100 by your birthday. If we move €5 each week from your pocket money, your timeline is on track."
-            },
-            {
-              "role": "user",
-              "text": "Will I still have money left for small treats?"
-            },
-            {
-              "role": "ai",
-              "text": "Based on your recent spending, yes. The €5 weekly transfer keeps your balance healthy while building your goal steadily."
-            },
-            {
-              "role": "user",
-              "text": "Okay, set the weekly transfer and track progress."
-            },
-            {
-              "role": "ai",
-              "text": "Done. Your Money Pot is active at €5 per week. I will send progress updates and milestone points you can redeem for vouchers."
-            }
-          ]
-        }
+        "bankOutcome": "Goal tracker adoption increases retention and repeat deposits."
       },
       {
         "day": 0,
@@ -243,35 +215,7 @@
         "channel": "chatbot",
         "capability": "goals_trackers",
         "customerReaction": "Paul activates two starter goals.",
-        "bankOutcome": "Goal adoption drives student financial discipline.",
-        "chatbotConversation": {
-          "messages": [
-            {
-              "role": "user",
-              "text": "I am moving to a Student Account. How should I budget for driving lessons and college fees?"
-            },
-            {
-              "role": "ai",
-              "text": "Good timing. From your savings pattern, a light monthly budget works. I recommend splitting your goal into Driving Lessons and College Fees so both keep moving."
-            },
-            {
-              "role": "user",
-              "text": "What monthly amount should I start with?"
-            },
-            {
-              "role": "ai",
-              "text": "Start with a low commitment that you can keep every month. Your current history supports this level without stressing your weekly spending."
-            },
-            {
-              "role": "user",
-              "text": "Set it up and remind me if I fall behind."
-            },
-            {
-              "role": "ai",
-              "text": "Configured. Both goals are live, and I will alert you early if spending drifts so you can stay on track."
-            }
-          ]
-        }
+        "bankOutcome": "Goal adoption drives student financial discipline."
       },
       {
         "day": 0,
@@ -535,35 +479,7 @@
         "channel": "chatbot",
         "capability": "goals_trackers",
         "customerReaction": "Paul confirms mortgage saver goal.",
-        "bankOutcome": "Goal-led pathway to future mortgage conversion.",
-        "chatbotConversation": {
-          "messages": [
-            {
-              "role": "user",
-              "text": "My salary comes in and rent goes out right away. Can I still save for a home?"
-            },
-            {
-              "role": "ai",
-              "text": "Yes. Your salary-rent pattern shows a repeatable surplus. You are ready for a Mortgage Saver plan without compromising essential bills."
-            },
-            {
-              "role": "user",
-              "text": "How much can I move safely each month?"
-            },
-            {
-              "role": "ai",
-              "text": "I calculated a contribution level that protects your rent-month buffer. It is enough to build a deposit consistently and still keep flexibility."
-            },
-            {
-              "role": "user",
-              "text": "Activate it the day after salary."
-            },
-            {
-              "role": "ai",
-              "text": "Done. Your salary-linked transfer is active and your Home Deposit goal is now tracking monthly progress."
-            }
-          ]
-        }
+        "bankOutcome": "Goal-led pathway to future mortgage conversion."
       },
       {
         "day": 0,
@@ -1263,35 +1179,7 @@
         "channel": "chatbot",
         "capability": "goals_trackers",
         "customerReaction": "Paul activates goal-linked ISA contribution plan.",
-        "bankOutcome": "Personetics goals tooling drives product conversion.",
-        "chatbotConversation": {
-          "messages": [
-            {
-              "role": "user",
-              "text": "I have better saving habits now. Should I open an ISA?"
-            },
-            {
-              "role": "ai",
-              "text": "Yes. Your consistency and balances indicate ISA suitability. It is a strong next step for tax-efficient long-term growth."
-            },
-            {
-              "role": "user",
-              "text": "Can we connect it to my life goals, not just one generic target?"
-            },
-            {
-              "role": "ai",
-              "text": "Absolutely. We can map your goals tools plan across family security, home upgrades, and education support, then assign contribution levels per goal."
-            },
-            {
-              "role": "user",
-              "text": "Apply that plan and keep it simple for me."
-            },
-            {
-              "role": "ai",
-              "text": "Done. Your ISA contributions are now goal-linked, and I will provide monthly insight updates with adjustments when your cashflow changes."
-            }
-          ]
-        }
+        "bankOutcome": "Personetics goals tooling drives product conversion."
       },
       {
         "day": 0,
