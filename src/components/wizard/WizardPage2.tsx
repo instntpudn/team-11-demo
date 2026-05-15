@@ -22,6 +22,12 @@ export function WizardPage2() {
         .map((e) => e.id);
     }
 
+    // Direct loads of Step 2 may have no prior objective selection.
+    // In that case, keep the wizard usable by showing all lifecycle events.
+    if (selectedObjectives.length === 0) {
+      return ALL_LIFE_EVENTS.map((e) => e.id);
+    }
+
     return ALL_LIFE_EVENTS
       .filter((event) => {
         return event.businessCases.some((bc) =>

@@ -9,7 +9,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<MarketingHomePage />} />
+        <Route path="/" element={<Navigate to="/wizard/step1" replace />} />
+        <Route path="/marketing" element={<MarketingHomePage />} />
         <Route path="/signup" element={<DemoSignupPage />} />
         <Route path="/wizard" element={<Navigate to="/wizard/step1" replace />} />
         <Route path="/wizard/step1" element={<WizardPage1 />} />
