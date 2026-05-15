@@ -1,16 +1,18 @@
 [
   {
     "id": "chapter_1",
-    "age": 0,
-    "yearLabel": "Birth",
-    "title": "Birth",
-    "bankEvent": "Child savings account opened",
+    "age": 11,
+    "yearLabel": "Age 11",
+    "title": "Smart Start Account and GAA Savings Goal",
+    "bankEvent": "Parents deposit weekly pocket money into Paul's Smart Start Account",
     "lifeStage": "childhood",
-    "emotionalTheme": "New Beginnings",
-    "description": "Alex's parents open a child savings account at Hero Bank — the first thread in a lifetime relationship.",
+    "emotionalTheme": "Confidence and Motivation",
+    "description": "Paul is 11, loves sport, and mostly spends on GAA gear. BOI Buddy turns pocket money deposits into an achievable savings habit tied to his birthday goal.",
     "businessCases": [
       "deposit_growth",
-      "engagement"
+      "engagement",
+      "financial_wellness",
+      "account_primacy"
     ],
     "financialSignals": [],
     "personeticsCapabilities": [],
@@ -21,89 +23,61 @@
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "New child savings account opened — family relationship detected",
-        "insight": "Welcome to the family! 🎉 Starting a college fund now could grow to over €13,000 by the time your baby turns 18. Here's a personalised savings projection for Alex.",
+        "signal": "€20 parent transfer posted to Smart Start Account",
+        "insight": "Hey Paul! €20 has gone into your account. If you put €5 into your Smart Start Money Pot each week, you could have €100 by your birthday for GAA gear.",
         "eventTypeExperience": "In-App Experience",
         "channel": "in_app",
         "capability": "personalized_insights",
-        "customerReaction": "Parents explore the projected balance chart for age 18.",
-        "bankOutcome": "New deposit relationship opened with family — savings trajectory set"
+        "customerReaction": "Paul opens the app and checks his sports spend summary.",
+        "bankOutcome": "Insight open rate increases and savings intent is created."
       },
       {
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "College savings goal opportunity — family account newly active",
-        "insight": "🎓 Start Alex's college fund! Even €50/month adds up to €10,800 by age 18. Tap to set a goal now.",
+        "signal": "Customer taps suggested savings goal",
+        "insight": "BOI Buddy chat: Want me to auto-move €5 every week to your Smart Start Money Pot and track your birthday progress?",
         "eventTypeExperience": "Agentic Chat Experience",
         "channel": "chatbot",
         "capability": "goals_trackers",
-        "customerReaction": "Parent taps the notification and sets a €50/month goal.",
-        "bankOutcome": "Recurring college goal created — account stickiness established",
-        "chatbotConversation": {
-          "messages": [
-            {
-              "role": "user",
-              "text": "How much should I save each month for Alex's college?"
-            },
-            {
-              "role": "ai",
-              "text": "Based on your current transaction history and monthly surplus, €50/month is a safe starting point and could grow to about €10,800 by age 18. If you can stretch to €100/month, that projects to roughly €21,600. Want me to show both paths side by side?"
-            },
-            {
-              "role": "user",
-              "text": "Show me both. I want something realistic."
-            },
-            {
-              "role": "ai",
-              "text": "Great call. The €50 plan keeps your weekly cash buffer intact. The €100 plan still works, but it reduces discretionary spend flexibility in higher-spend months. My recommendation: start at €50 and auto-step to €100 after 90 days if your cashflow stays stable."
-            },
-            {
-              "role": "user",
-              "text": "Do that. Start at €50 and review in 90 days."
-            },
-            {
-              "role": "ai",
-              "text": "Done. I've set a €50 monthly transfer and scheduled a 90-day cashflow review. If your income and spending pattern support it, I'll prompt you to increase automatically."
-            }
-          ]
-        }
+        "customerReaction": "Paul confirms automatic weekly transfer.",
+        "bankOutcome": "Recurring savings goal activated and tracked in-app."
       },
       {
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "Monthly transfer pattern eligible — recurring deposit opportunity",
-        "insight": "Great start! Activate Auto-Transfer to move €50 to Alex's college account every month without thinking about it. Set it up in two taps.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "smart_savings",
-        "customerReaction": "Auto-transfer enabled in two taps.",
-        "bankOutcome": "Recurring monthly deposits activated — AUM growth on autopilot"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Goal created — family sharing opportunity detected",
-        "insight": "Alex's college fund is live! Share the goal link with family — grandparents can contribute directly from any bank.",
+        "signal": "First weekly transfer completes",
+        "insight": "Great start, Paul. You are 5% of the way to your €100 target. Keep this up and you will hit your birthday goal.",
         "eventTypeExperience": "Push Notification Experience",
         "channel": "push",
         "capability": "engagement_builder",
-        "customerReaction": "Parent shares the goal link to the family group chat.",
-        "bankOutcome": "Referral loop initiated — cross-household brand exposure"
+        "customerReaction": "Paul keeps the transfer active and checks progress.",
+        "bankOutcome": "Goal adherence improves through timely nudges."
       },
       {
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "New family account active — gifting network opportunity",
-        "insight": "Subject: Welcome Baby Alex — your college savings journey starts today!\n\nCongratulations! We've created a personal gift link so grandparents and loved ones can contribute directly to Alex's college fund. Every gift counts toward a brighter future.",
+        "signal": "Week-one savings streak achieved",
+        "insight": "Email to parent: Paul is on track for his GAA goal. If he maintains this pace, he can unlock points redeemable for vouchers.",
         "eventTypeExperience": "Email Experience",
         "channel": "email",
         "capability": "engagement_builder",
-        "customerReaction": "Grandparents receive the link and add a €500 birthday contribution.",
-        "bankOutcome": "External deposits captured — new household relationship seeds planted"
+        "customerReaction": "Parent encourages Paul to continue weekly saving.",
+        "bankOutcome": "Family engagement strengthens long-term account retention."
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Consistent child savings behavior detected",
+        "insight": "Banker prompt: Offer a quick parent check-in on youth saving habits and reward milestones.",
+        "eventTypeExperience": "Banker CRM Experience",
+        "channel": "banker",
+        "capability": "personalized_insights",
+        "customerReaction": "Parent accepts short guidance call.",
+        "bankOutcome": "Higher confidence in BOI advice and deeper relationship value."
       }
     ],
     "businessImpact": [],
@@ -115,17 +89,18 @@
   },
   {
     "id": "chapter_2",
-    "age": 16,
-    "yearLabel": "Age 16",
-    "title": "Becoming a teenager",
-    "bankEvent": "First debit card issued and activated",
-    "lifeStage": "childhood",
-    "emotionalTheme": "Independence",
-    "description": "Alex gets a first debit card. Every swipe is a chance to teach a money habit that lasts a lifetime.",
+    "age": 17,
+    "yearLabel": "Age 17",
+    "title": "Transition to Student Account",
+    "bankEvent": "BOI Buddy recommends moving from Smart Start to Student Account",
+    "lifeStage": "student",
+    "emotionalTheme": "Readiness and Independence",
+    "description": "Paul is now 17 and transitioning to a Student Account. BOI Buddy analyzes his savings behavior and introduces a simple budget for driving lessons or college fees.",
     "businessCases": [
+      "account_primacy",
       "engagement",
       "financial_wellness",
-      "account_primacy"
+      "retention"
     ],
     "financialSignals": [],
     "personeticsCapabilities": [],
@@ -136,89 +111,61 @@
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "First debit card activated — youth customer onboarding moment",
-        "insight": "Your debit card is live, Alex! 💳 Check the app to see a real-time summary of your spending and set your very first budget.",
+        "signal": "Eligibility trigger for Student Account",
+        "insight": "You are ready for a Student Account, Paul. It is designed for your next stage and works with your current savings habits.",
+        "eventTypeExperience": "In-App Experience",
+        "channel": "in_app",
+        "capability": "personalized_insights",
+        "customerReaction": "Paul reviews benefits and taps to continue.",
+        "bankOutcome": "Seamless product migration with no attrition."
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Customer opens transition flow",
+        "insight": "BOI Buddy chat: Based on your saving pattern, start a light monthly budget and split it into Driving Lessons and College Fees goals.",
+        "eventTypeExperience": "Agentic Chat Experience",
+        "channel": "chatbot",
+        "capability": "goals_trackers",
+        "customerReaction": "Paul chooses a starter budget and activates both goals.",
+        "bankOutcome": "Goal adoption increases financial planning behavior."
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "First week spending remains inside target",
+        "insight": "Nice work. You are on budget this week and still contributing to both goals.",
         "eventTypeExperience": "Push Notification Experience",
         "channel": "push",
         "capability": "engagement_builder",
-        "customerReaction": "Alex opens the app and smiles at the friendly, personalised tone.",
-        "bankOutcome": "Youth digital engagement activated — app usage up 120% in week one"
+        "customerReaction": "Paul keeps weekly spending limits active.",
+        "bankOutcome": "Improved budget consistency and app stickiness."
       },
       {
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "Retail spending pattern emerging — category breakdown available",
-        "insight": "You spent €128 this month — mostly food, entertainment, and shopping. Tap any category to see exactly where your money went.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "transaction_intelligence",
-        "customerReaction": "Alex explores the spending category breakdown.",
-        "bankOutcome": "Transaction intelligence engaged — spending awareness established"
+        "signal": "Seven-day budget and goal data available",
+        "insight": "Email: Your weekly budget snapshot is ready. You are pacing well for driving lessons and college fee targets.",
+        "eventTypeExperience": "Email Experience",
+        "channel": "email",
+        "capability": "cashflow_forecast",
+        "customerReaction": "Paul and parent review progress together.",
+        "bankOutcome": "Higher transparency and confidence in BOI guidance."
       },
       {
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "Recurring subscription charge detected — unrecognised merchant",
-        "insight": "Heads up — a €9.99 charge looks like a recurring subscription. Recognise it? Tap to review all your active subscriptions.",
-        "eventTypeExperience": "Agentic Chat Experience",
-        "channel": "chatbot",
-        "capability": "transaction_intelligence",
-        "customerReaction": "Alex reviews subscriptions and learns to spot recurring charges.",
-        "bankOutcome": "Proactive spend monitoring activated — trust and engagement deepened",
-        "chatbotConversation": {
-          "messages": [
-            {
-              "role": "user",
-              "text": "I keep seeing this €9.99 charge. What is it?"
-            },
-            {
-              "role": "ai",
-              "text": "I detected it recurring monthly from the same merchant, so it's likely a subscription. Across your last 90 days, you have 5 active subscriptions totaling about €62.95/month. Want a quick keep-or-cancel audit?"
-            },
-            {
-              "role": "user",
-              "text": "Yes, show me what I should cancel."
-            },
-            {
-              "role": "ai",
-              "text": "Based on usage-linked transactions, you consistently use 2 services and rarely use 3. Canceling the low-use 3 would save about €32.97/month without affecting your core spending habits."
-            },
-            {
-              "role": "user",
-              "text": "Cancel the low-use ones."
-            },
-            {
-              "role": "ai",
-              "text": "Done. I flagged the 3 low-use subscriptions for cancellation guidance and set a monthly recurring-charge monitor so I can alert you before charges repeat."
-            }
-          ]
-        }
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Discretionary spend detected — savings goal opportunity",
-        "insight": "Want those new headphones? Set a savings goal for €200 and we'll track your progress. At your current pace, you'll hit it in 8 weeks — without touching your other spending.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "goals_trackers",
-        "customerReaction": "Alex sets a €200 'Headphones' savings goal.",
-        "bankOutcome": "First savings goal created — habit formation loop initiated"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "30-day engagement milestone — consistent app usage streak",
-        "insight": "30 days of tracking your money — that's a real achievement! Here's your first monthly money summary and a snapshot of the habits you're building.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "engagement_builder",
-        "customerReaction": "Alex shares the monthly summary with friends as a money flex.",
-        "bankOutcome": "Long-term digital habit formed — youth retention secured"
+        "signal": "Strong early student budgeting behavior",
+        "insight": "Banker task: Offer a short check-in to optimize goal allocation between near-term driving costs and college timeline.",
+        "eventTypeExperience": "Banker CRM Experience",
+        "channel": "banker",
+        "capability": "personalized_insights",
+        "customerReaction": "Paul accepts a 15-minute planning call.",
+        "bankOutcome": "Retention and primacy strengthened before adulthood account competition."
       }
     ],
     "businessImpact": [],
@@ -230,17 +177,18 @@
   },
   {
     "id": "chapter_3",
-    "age": 18,
-    "yearLabel": "Age 18",
-    "title": "Leaving home for college",
-    "bankEvent": "Tuition payments and student spending begin",
-    "lifeStage": "student",
-    "emotionalTheme": "New Chapter",
-    "description": "Tuition, books, dorm — Alex's life turns financially complex overnight. MyBank steadies the ride.",
+    "age": 23,
+    "yearLabel": "Age 23",
+    "title": "Early Career Salary-Rent Cycle",
+    "bankEvent": "Monthly salary arrives and rent exits, triggering mortgage saver recommendation",
+    "lifeStage": "early_career",
+    "emotionalTheme": "Momentum and Direction",
+    "description": "Paul starts his early career. BOI Buddy recognizes stable salary and rent patterns and suggests a Mortgage Saver account to convert habit into future home readiness.",
     "businessCases": [
+      "deposit_growth",
+      "product_conversion",
       "engagement",
-      "financial_wellness",
-      "account_primacy"
+      "financial_wellness"
     ],
     "financialSignals": [],
     "personeticsCapabilities": [],
@@ -251,89 +199,61 @@
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "Large tuition payment detected — semester cashflow risk elevated",
-        "insight": "Your €4,200 tuition payment cleared. Based on your current spending pace, your balance will cover approximately 4 months — here's your full semester cash runway.",
+        "signal": "Salary in and rent out pattern stabilizes over 3 months",
+        "insight": "You now have a reliable monthly surplus after rent. You are in a strong position to start a Mortgage Saver account.",
         "eventTypeExperience": "In-App Experience",
         "channel": "in_app",
         "capability": "cashflow_forecast",
-        "customerReaction": "Alex reviews the 4-month forecast and adjusts weekend spending.",
-        "bankOutcome": "Cashflow forecast prevents projected overdraft — saves €45/month in fees"
+        "customerReaction": "Paul reviews projected 12-month surplus.",
+        "bankOutcome": "Mortgage saver intent captured in-app."
       },
       {
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "Multiple streaming subscriptions detected — combined €47/month",
-        "insight": "You're paying for 5 streaming services — €47 a month total. Tap to see which ones you've actually used in the last 30 days.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "transaction_intelligence",
-        "customerReaction": "Alex cancels 3 unused subscriptions — saves €36/month instantly.",
-        "bankOutcome": "Proactive expense management activated — customer financial health improved"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Spending velocity 22% above weekly average — overdraft risk rising",
-        "insight": "Spending is running 22% higher than usual this week. At this pace, you may run low before your next deposit. Here's a quick way to pull back and stay on track.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "cashflow_forecast",
-        "customerReaction": "Alex cuts a few discretionary purchases and avoids an overdraft.",
-        "bankOutcome": "Overdraft avoided — €45 in fees saved, trust reinforced"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Incoming refund detected — automatic sweep opportunity",
-        "insight": "Tax refund received! We automatically moved €400 into your savings so it doesn't disappear into daily spending. Your account balance is protected.",
+        "signal": "Customer requests next-step guidance",
+        "insight": "BOI Buddy chat: Set a Home Deposit goal now. I can recommend an amount that still keeps your rent-month buffer safe.",
         "eventTypeExperience": "Agentic Chat Experience",
         "channel": "chatbot",
-        "capability": "smart_savings",
-        "customerReaction": "Alex is relieved — the trip home is funded without any stress.",
-        "bankOutcome": "Automated savings sweep executed — balance protection demonstrated",
-        "chatbotConversation": {
-          "messages": [
-            {
-              "role": "user",
-              "text": "My tax refund just hit. What should I do with it?"
-            },
-            {
-              "role": "ai",
-              "text": "I detected the refund deposit and ran your next-30-day cashflow forecast from your transaction history. You can safely sweep €400 to savings today and still keep enough runway for tuition-period spending."
-            },
-            {
-              "role": "user",
-              "text": "Will that still cover my upcoming bills?"
-            },
-            {
-              "role": "ai",
-              "text": "Yes. After the €400 sweep, your projected balance stays above your low-balance threshold through your next deposit cycle, including recurring subscriptions and expected living expenses."
-            },
-            {
-              "role": "user",
-              "text": "Okay, move the €400."
-            },
-            {
-              "role": "ai",
-              "text": "Done. €400 moved to savings. I'll monitor your weekly spending velocity and alert you early if forecast risk changes."
-            }
-          ]
-        }
+        "capability": "goals_trackers",
+        "customerReaction": "Paul accepts a monthly deposit target.",
+        "bankOutcome": "Home deposit goal launched with realistic contribution schedule."
       },
       {
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "Semester savings milestone — student financial resilience demonstrated",
-        "insight": "You've saved €1,200 since starting college — ahead of most students your age. Here's a shareable semester finances summary to show your parents you've got this.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "engagement_builder",
-        "customerReaction": "Alex screenshots the summary and texts it to mum.",
-        "bankOutcome": "Student retention secured — parent brand credibility strengthened"
+        "signal": "First salary cycle after recommendation",
+        "insight": "We can auto-move your savings the day after salary to reduce friction and protect consistency.",
+        "eventTypeExperience": "Push Notification Experience",
+        "channel": "push",
+        "capability": "smart_savings",
+        "customerReaction": "Paul enables salary-linked transfer automation.",
+        "bankOutcome": "Consistent monthly savings inflow established."
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "First transfer completed",
+        "insight": "Email: Great start. At your current pace, your projected home deposit in 24 months is clearly on track.",
+        "eventTypeExperience": "Email Experience",
+        "channel": "email",
+        "capability": "cashflow_forecast",
+        "customerReaction": "Paul keeps contribution level unchanged.",
+        "bankOutcome": "Confidence in plan increases persistence."
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Three-week consistency milestone",
+        "insight": "Banker prompt: Offer a pre-mortgage readiness review and explain documentation timeline early.",
+        "eventTypeExperience": "Banker CRM Experience",
+        "channel": "banker",
+        "capability": "personalized_insights",
+        "customerReaction": "Paul books a branch consultation.",
+        "bankOutcome": "Higher probability of BOI mortgage origination."
       }
     ],
     "businessImpact": [],
@@ -345,945 +265,18 @@
   },
   {
     "id": "chapter_4",
-    "age": 19,
-    "yearLabel": "Age 19",
-    "title": "Building credit",
-    "bankEvent": "First credit card opened",
-    "lifeStage": "student",
-    "emotionalTheme": "Building Credit",
-    "description": "Alex opens a student credit card. MyBank teaches the hidden rules of credit before the first mistake.",
-    "businessCases": [
-      "credit_growth",
-      "financial_wellness",
-      "engagement",
-      "card_spend"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "New credit card opened — credit education opportunity",
-        "insight": "Your first credit card is active! Keep your balance under 30% of your €1,000 limit and pay on time every month — those two habits build your score the fastest.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "personalized_insights",
-        "customerReaction": "Alex reads the 60-second credit primer and feels prepared.",
-        "bankOutcome": "Credit education engagement reduces early delinquency risk by 40%"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Credit card payment due in 3 days — payment history at risk",
-        "insight": "Your credit card payment is due in 3 days. Paying even a small amount now protects your payment history — the single biggest factor in your credit score.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "transaction_intelligence",
-        "customerReaction": "Alex makes an early €50 payment right from the notification.",
-        "bankOutcome": "On-time payment rate reaches 98% — credit health programme effective"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Auto-pay setup opportunity — payment consistency risk mitigation",
-        "insight": "Auto-pay is the easiest way to never miss a payment. Set it up now — payment history is 35% of your credit score, and this makes it effortless.",
-        "eventTypeExperience": "Agentic Chat Experience",
-        "channel": "chatbot",
-        "capability": "smart_savings",
-        "customerReaction": "Alex enables auto-pay in under a minute.",
-        "bankOutcome": "Auto-pay activated — payment consistency secured, delinquency risk eliminated",
-        "chatbotConversation": {
-          "messages": [
-            {
-              "role": "user",
-              "text": "I paid early once. Do I really need auto-pay?"
-            },
-            {
-              "role": "ai",
-              "text": "Early payments help, but consistency matters most. From your payment history, auto-pay would remove missed-payment risk entirely and protect the strongest credit-score factor: on-time history."
-            },
-            {
-              "role": "user",
-              "text": "Can we do it without draining my account?"
-            },
-            {
-              "role": "ai",
-              "text": "Yes. I can schedule auto-pay 5 days before due date and cap it to statement balance while preserving your minimum checking buffer based on your recent cashflow pattern."
-            },
-            {
-              "role": "user",
-              "text": "Set it up with that buffer."
-            },
-            {
-              "role": "ai",
-              "text": "Done. Auto-pay is active with a cash buffer safeguard. You'll get a pre-debit alert and I’ll flag any month where forecasted balance risk rises."
-            }
-          ]
-        }
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Credit score milestone — 680 reached after 6 months of use",
-        "insight": "Your credit score just jumped to 680! 🎉 You're building excellent credit history. Keep it up and you'll qualify for even better rates in 6 more months.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "engagement_builder",
-        "customerReaction": "Alex feels in control and starts checking the app daily.",
-        "bankOutcome": "Premium card tier eligibility reached — upsell opportunity identified"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Excellent payment history — rewards card pre-approval triggered",
-        "insight": "Your payment record is outstanding — you're pre-approved for a 2% cashback rewards card with no annual fee. Upgrade takes one tap.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "offers",
-        "customerReaction": "Alex upgrades to the rewards card immediately.",
-        "bankOutcome": "Card upgrade completed — revenue per customer increased"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_5",
-    "age": 22,
-    "yearLabel": "Age 22",
-    "title": "Graduating college",
-    "bankEvent": "Student spending pattern ends, income transition detected",
-    "lifeStage": "early_career",
-    "emotionalTheme": "Achievement",
-    "description": "Tuition payments stop. Student spending fades. A whole new financial chapter begins.",
-    "businessCases": [
-      "engagement",
-      "financial_wellness",
-      "account_primacy",
-      "card_spend"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Life-stage transition detected — student to early career shift",
-        "insight": "Congratulations, graduate! Your financial picture just changed. Here's a 5-step career-launch plan personalised to your current income, debt, and goals.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "personalized_insights",
-        "customerReaction": "Alex reads through all 5 steps and feels ready for what comes next.",
-        "bankOutcome": "Life-stage transition captured — early career relationship deepened"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "First full-time income detected — post-college financial checklist needed",
-        "insight": "Subject: Your post-college financial checklist is ready, Alex!\n\nHi Alex, from your first student loan payment to building a real emergency fund, we've put together a personalised checklist for your career launch. Every step is tied to your actual accounts.",
-        "eventTypeExperience": "Agentic Chat Experience",
-        "channel": "chatbot",
-        "capability": "engagement_builder",
-        "customerReaction": "Alex bookmarks the checklist and works through it over two weeks.",
-        "bankOutcome": "Post-graduation engagement secured — product adoption accelerated",
-        "chatbotConversation": {
-          "messages": [
-            {
-              "role": "user",
-              "text": "I started full-time work. What's first?"
-            },
-            {
-              "role": "ai",
-              "text": "I detected your first full-time payroll pattern. Based on your inflows and fixed expenses, your highest-impact next steps are: emergency fund target, debt pacing, and retirement setup."
-            },
-            {
-              "role": "user",
-              "text": "I have about €8,000 saved already."
-            },
-            {
-              "role": "ai",
-              "text": "Strong start. Your current expense pattern suggests a 3-month reserve target near €16,500. You're roughly halfway there, so we can split monthly surplus between reserve growth and retirement contributions."
-            },
-            {
-              "role": "user",
-              "text": "Let’s split it automatically."
-            },
-            {
-              "role": "ai",
-              "text": "Configured. Monthly allocation is now staged across emergency savings and retirement, and I’ll rebalance it automatically if your income or spend trend changes."
-            }
-          ]
-        }
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Student loan grace period ending — first payment due in 60 days",
-        "insight": "Student loan payments kick in 60 days from now. Based on your salary, here's exactly what that means for your monthly budget — and how to prepare without feeling squeezed.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "cashflow_forecast",
-        "customerReaction": "Alex marks the date and starts a loan payment buffer in savings.",
-        "bankOutcome": "Loan repayment delinquency risk reduced — proactive cashflow planning"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "New employer payroll detected — direct deposit switch opportunity",
-        "insight": "Switch your payroll direct deposit here and get paid up to 2 days early. Your employer's HR portal accepts our routing number — it takes less than 2 minutes.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "direct_deposit_switch",
-        "customerReaction": "Alex completes the direct deposit switch the same afternoon.",
-        "bankOutcome": "Primary banking relationship secured — payroll captured"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "First full month of career income complete — budget baseline ready",
-        "insight": "Month one as a working adult — great start! Here's a personalised income-based budget built from your actual spending. Stick to it and you'll hit your savings goal by year-end.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "personalized_insights",
-        "customerReaction": "Alex follows the recommended budget and saves €400 in month one.",
-        "bankOutcome": "Savings behaviour established — long-term AUM growth initiated"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_6",
-    "age": 23,
-    "yearLabel": "Age 23",
-    "title": "Starting a career",
-    "bankEvent": "First payroll deposit detected",
-    "lifeStage": "early_career",
-    "emotionalTheme": "Independence",
-    "description": "A real paycheck arrives. So does the temptation to spend it. MyBank turns the moment into primacy and savings.",
-    "businessCases": [
-      "deposit_growth",
-      "account_primacy",
-      "financial_wellness"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "First payroll deposit confirmed — direct deposit primacy opportunity",
-        "insight": "Your first paycheck just landed! 💰 Switch your direct deposit to get paid up to 2 days early. Tap to set it up in 30 seconds — just enter your employer details.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "direct_deposit_switch",
-        "customerReaction": "Alex taps immediately and starts the one-tap direct deposit switch.",
-        "bankOutcome": "Payroll primacy captured — primary bank status secured"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Lifestyle spending spike — 35% above previous month baseline",
-        "insight": "Your spending jumped 35% this month. It's natural after your first paycheck, but here's a breakdown of where it's going so you stay in control.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "transaction_intelligence",
-        "customerReaction": "Alex opens the spend breakdown and decides to slow down on dining.",
-        "bankOutcome": "Early financial discipline reinforced — healthy spending habits embedded"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Savings opportunity detected — surplus after living expenses confirmed",
-        "insight": "Save 10% of every paycheck automatically — before you ever see it. At your salary, that's €325/month, which grows to €47,000 in 10 years with compound interest.",
-        "eventTypeExperience": "Agentic Chat Experience",
-        "channel": "chatbot",
-        "capability": "smart_savings",
-        "customerReaction": "Alex turns on auto-save at 10% and never misses the money.",
-        "bankOutcome": "Recurring deposit product adopted — AUM and retention strengthened",
-        "chatbotConversation": {
-          "messages": [
-            {
-              "role": "user",
-              "text": "I just got paid. How much can I save without stress?"
-            },
-            {
-              "role": "ai",
-              "text": "Using your last 3 months of transactions, you have a repeatable post-expense surplus. A 10% paycheck auto-save fits your current pattern and keeps your discretionary spend intact."
-            },
-            {
-              "role": "user",
-              "text": "What does that become long-term?"
-            },
-            {
-              "role": "ai",
-              "text": "At about €325/month, your 10-year projection is roughly €47,000 assuming current contribution consistency. I can auto-adjust the amount upward when your surplus expands."
-            },
-            {
-              "role": "user",
-              "text": "Enable it and auto-adjust later."
-            },
-            {
-              "role": "ai",
-              "text": "Done. 10% auto-save is active. I'll monitor cashflow each pay cycle and prompt increases only when your buffer remains healthy."
-            }
-          ]
-        }
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Emergency fund gap detected — 0 months coverage currently",
-        "insight": "Your first financial safety net: save 3 months of expenses (€6,900) by year-end. You're 12% there — add €75 per paycheck and you'll hit the goal by December.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "goals_trackers",
-        "customerReaction": "Alex accepts the goal and bumps the contribution to €75/paycheck.",
-        "bankOutcome": "Emergency fund goal created — financial resilience building begins"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "First career month complete — milestone engagement opportunity",
-        "insight": "One month in and you're already ahead of most people your age. Savings started, budget set, goals in motion — here's your career-launch financial snapshot.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "engagement_builder",
-        "customerReaction": "Alex shares the snapshot on social with the caption 'adulting right'.",
-        "bankOutcome": "Brand advocacy generated — peer referral opportunity initiated"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_7",
-    "age": 23,
-    "yearLabel": "Age 23",
-    "title": "Repaying student debt",
-    "bankEvent": "Loan-servicer payments begin",
-    "lifeStage": "early_career",
-    "emotionalTheme": "Responsibility",
-    "description": "The loan servicer's first bill arrives. MyBank turns dread into a clear, manageable plan.",
-    "businessCases": [
-      "financial_wellness",
-      "retention",
-      "servicing_efficiency"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Student loan payment due — cashflow impact forecasted",
-        "insight": "Your first loan payment of €347 is due this Friday. Your cashflow is strong enough to cover it — here's your next 30 days mapped out so nothing catches you off guard.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "cashflow_forecast",
-        "customerReaction": "Alex reviews the clear 30-day chart and feels calm about the payment.",
-        "bankOutcome": "First payment made on time — delinquency risk eliminated"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Refinance eligibility detected — 1.5% rate improvement available",
-        "insight": "You may qualify to refinance your student loans at 4.2% APR — saving up to €18,500 in interest over the life of the loan. Tap to see your personalised offer.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "offers",
-        "customerReaction": "Alex opens the offer and initiates a refinance application.",
-        "bankOutcome": "Loan refinance initiated — rate improvement and retention secured"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Accelerated payoff scenario — €75/month extra eliminates 4 years",
-        "insight": "Pay just €75 more per month and you'll be debt-free 4 years early — and save €18,500 in interest. Tap to see the side-by-side comparison of your two payoff paths.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "goals_trackers",
-        "customerReaction": "Alex explores both scenarios and chooses the accelerated path.",
-        "bankOutcome": "Early payoff goal set — interest savings realised, financial health improved"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Round-up savings opportunity — small contributions add up",
-        "insight": "Round-Up Savings quietly chips away at your debt. Every purchase rounds up to the nearest euro — those cents add up to €600+ in extra loan payments per year.",
-        "eventTypeExperience": "Agentic Chat Experience",
-        "channel": "chatbot",
-        "capability": "smart_savings",
-        "customerReaction": "Alex enables round-ups and watches the balance shrink automatically.",
-        "bankOutcome": "Micro-savings product adopted — debt reduction accelerated passively",
-        "chatbotConversation": {
-          "messages": [
-            {
-              "role": "user",
-              "text": "How do round-ups actually help with my student debt?"
-            },
-            {
-              "role": "ai",
-              "text": "From your transaction volume, round-ups would generate about €45-€55 per month. Applied automatically to loan principal, that accelerates payoff with almost no behavior change."
-            },
-            {
-              "role": "user",
-              "text": "Will that impact my weekly budget?"
-            },
-            {
-              "role": "ai",
-              "text": "Minimal impact. Round-ups spread across small purchases, and your forecasted balance remains above your safe threshold based on your recent cashflow history."
-            },
-            {
-              "role": "user",
-              "text": "Okay, turn on round-ups for debt payments."
-            },
-            {
-              "role": "ai",
-              "text": "Enabled. Round-ups are now linked to your loan. You'll see monthly principal acceleration and projected payoff-date improvements in your debt tracker."
-            }
-          ]
-        }
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "On-time payment streak — 6 consecutive months detected",
-        "insight": "6 on-time loan payments in a row — that's serious financial discipline! Your credit score rose 18 points as a result. Keep it up and better rates await.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "engagement_builder",
-        "customerReaction": "Alex feels real momentum and starts researching refinancing options.",
-        "bankOutcome": "Credit score improvement increases eligibility for premium products"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_8",
-    "age": 24,
-    "yearLabel": "Age 24",
-    "title": "Gaining financial footing",
-    "bankEvent": "Recurring surplus cash detected in checking",
-    "lifeStage": "early_career",
-    "emotionalTheme": "Security",
-    "description": "Cash is finally piling up in checking. MyBank turns idle balance into resilience — automatically.",
-    "businessCases": [
-      "deposit_growth",
-      "financial_wellness",
-      "engagement"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Idle cash accumulating — €2,400 above optimal checking balance",
-        "insight": "You have €2,400 sitting idle in checking — earning next to nothing. Here are three smart options to put it to work this week: save, invest, or pay down debt faster.",
-        "eventTypeExperience": "Agentic Chat Experience",
-        "channel": "chatbot",
-        "capability": "transaction_intelligence",
-        "customerReaction": "Alex taps through each option and decides to open a high-yield account.",
-        "bankOutcome": "Idle balance activation initiated — product cross-sell opportunity identified",
-        "chatbotConversation": {
-          "messages": [
-            {
-              "role": "user",
-              "text": "I have extra cash sitting in checking. What should I do?"
-            },
-            {
-              "role": "ai",
-              "text": "I detected about €2,400 above your normal operating buffer from recent balance patterns. Best options now: move part to high-yield savings, part to debt reduction, or stage an investment transfer."
-            },
-            {
-              "role": "user",
-              "text": "What split would you recommend for me?"
-            },
-            {
-              "role": "ai",
-              "text": "Based on your transaction volatility and goals, a balanced split is: liquidity first, then debt, then growth allocation. This keeps flexibility while improving return on idle cash."
-            },
-            {
-              "role": "user",
-              "text": "Apply the balanced split."
-            },
-            {
-              "role": "ai",
-              "text": "Done. Funds are allocated with your buffer protected. I’ll keep watching your inflow/outflow trend and flag the next idle-cash optimization window."
-            }
-          ]
-        }
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "High-yield savings eligibility — liquid assets above threshold",
-        "insight": "Earn 4.8% on your savings — that's 10x more than a standard account. Open a High Yield Savings Account now and your €2,400 earns an extra €115 per year, automatically.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "offers",
-        "customerReaction": "Alex opens the HYSA account directly from the insight card.",
-        "bankOutcome": "High-yield savings account opened — deposit base expanded"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Emergency fund 80% complete — final milestone within reach",
-        "insight": "Your emergency fund goal is 80% complete — just €400 more and you'll have full 6-month coverage. That's the gold standard of personal financial security.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "goals_trackers",
-        "customerReaction": "Alex makes the final €400 transfer and hits the milestone.",
-        "bankOutcome": "Emergency fund milestone achieved — financial resilience established"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Net worth milestone — €50,000 crossed for the first time",
-        "insight": "Your net worth just hit €50,000! 🎉 Auto-Save has been quietly adding €180/month since you started. Here's a full breakdown of how you got here.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "smart_savings",
-        "customerReaction": "Alex enables an increased auto-save amount — 'let's keep going'.",
-        "bankOutcome": "Net worth milestone drives increased savings commitment — AUM growth"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Financial health score top quartile — 82/100 achieved",
-        "insight": "You're in the top 25% of savers your age. Financial health score: 82/100 — strong savings, low debt, consistent habits. Here's your full financial health report.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "engagement_builder",
-        "customerReaction": "Alex boosts weekly savings to accelerate toward the next milestone.",
-        "bankOutcome": "High-value customer behaviour reinforced — strong retention signal"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_9",
-    "age": 25,
-    "yearLabel": "Age 25",
-    "title": "Buying a first car",
-    "bankEvent": "Auto-dealer charge and insurance payment detected",
-    "lifeStage": "young_adult",
-    "emotionalTheme": "Freedom",
-    "description": "Alex visits a dealership. MyBank catches the moment of intent — and offers a better loan than the dealer.",
-    "businessCases": [
-      "credit_growth",
-      "product_conversion",
-      "financial_wellness"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Auto-dealer transaction detected — purchase intent signal",
-        "insight": "Looks like you're at a car dealership! Before you sign anything, check your pre-approved rate: 4.9% APR. Most dealers offer 6–9% — that difference saves you thousands.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "offers",
-        "customerReaction": "Alex opens the rate offer mid-dealership visit and shows it to the salesperson.",
-        "bankOutcome": "Auto loan captured before dealer financing — rate advantage demonstrated"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Auto loan payment capacity confirmed — budget impact analysis ready",
-        "insight": "Adding a car payment changes your monthly budget. Here's a side-by-side cashflow view for 48, 60, and 72-month loan terms so you can choose the right fit for your life.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "cashflow_forecast",
-        "customerReaction": "Alex picks the 60-month term after seeing the cashflow trade-offs clearly.",
-        "bankOutcome": "Informed loan term selection — reduced early payoff risk"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Pre-approval ready — credit score and income qualify for best tier",
-        "insight": "You're pre-approved for a 60-month auto loan at 4.9% APR. Monthly payment: €424 — compared to €469 at the dealer's posted rate. That's €2,700 saved over the full loan.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "offers",
-        "customerReaction": "Alex accepts the loan offer directly from the app.",
-        "bankOutcome": "Auto loan booked — net interest margin captured at preferred rate"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "New auto insurance need detected — vehicle registration confirmed",
-        "insight": "Subject: Bundle and save — auto insurance for your new car, Alex!\n\nHi Alex, your new car qualifies for our bundled auto + renters insurance package. As a Hero Bank customer, you save 18% vs. standalone policies. Get a free quote in 3 minutes.",
-        "eventTypeExperience": "Email Experience",
-        "channel": "email",
-        "capability": "offers",
-        "customerReaction": "Alex requests an insurance quote and bundles both policies.",
-        "bankOutcome": "Insurance cross-sell completed — multi-product relationship deepened"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Loan active — updated monthly cashflow ready",
-        "insight": "Your car loan is live! Your updated monthly budget is ready — loan payment, insurance, fuel, and savings all in one view. You know exactly where you stand every month.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "cashflow_forecast",
-        "customerReaction": "Alex saves the budget view and checks it at the end of each month.",
-        "bankOutcome": "Ongoing cashflow engagement established — monthly app touchpoint secured"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_10",
-    "age": 25,
-    "yearLabel": "Age 25",
-    "title": "Tax season",
-    "bankEvent": "€2,400 IRS refund deposit",
-    "lifeStage": "young_adult",
-    "emotionalTheme": "Windfall",
-    "description": "€2,400 hits Alex's checking. MyBank splits it perfectly between savings, debt, and a little fun.",
-    "businessCases": [
-      "deposit_growth",
-      "financial_wellness",
-      "product_conversion",
-      "card_spend"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "IRS refund deposit detected — €2,400 received",
-        "insight": "Your €2,400 tax refund just landed! Here's the smartest way to split it: €1,200 to savings, €800 to pay down debt, €400 to spend guilt-free. One tap to apply.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "transaction_intelligence",
-        "customerReaction": "Alex opens the smart-split suggestion and applies it immediately.",
-        "bankOutcome": "Refund deposit retained and allocated — AUM growth and debt reduction"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Missed deduction opportunity — prior year tax analysis available",
-        "insight": "We found 3 deductions you may have missed last year — student loan interest, home office, and professional development. Using them this year could boost your refund by €600+.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "personalized_insights",
-        "customerReaction": "Alex forwards the deduction tips to their accountant before filing.",
-        "bankOutcome": "Tax advisory value demonstrated — trust and engagement deepened"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Windfall allocation in progress — savings sweep executed",
-        "insight": "We moved €1,200 from your refund straight to your house down payment goal — it's already working for you. Your goal is now 40% funded.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "smart_savings",
-        "customerReaction": "Alex sees the goal jump forward and says 'let's do this'.",
-        "bankOutcome": "Savings goal progress accelerated — account engagement reinforced"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Multiple goals advanced simultaneously — refund allocation complete",
-        "insight": "Your refund paid off your credit card balance AND added €800 to your house fund in one move. You hit two goals with one deposit — here's your updated 2025 progress.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "goals_trackers",
-        "customerReaction": "Alex confirms the allocation and feels genuinely on top of finances.",
-        "bankOutcome": "Debt cleared and savings goal advanced — revenue and retention benefits"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Full refund allocation confirmed — financial summary ready",
-        "insight": "Your tax refund is fully allocated — saving, investing, and debt-free. Here's a visual breakdown of how every euro from your refund is now working for you.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "engagement_builder",
-        "customerReaction": "Alex reviews the full picture and feels genuinely in control.",
-        "bankOutcome": "Financial wellness milestone reinforced — long-term loyalty signals strong"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_11",
-    "age": 27,
-    "yearLabel": "Age 27",
-    "title": "Getting engaged",
-    "bankEvent": "Jewellery merchant purchase €4,800",
-    "lifeStage": "young_adult",
-    "emotionalTheme": "Love",
-    "description": "A jewellery purchase signals a life-changing moment. MyBank turns it into a household relationship.",
-    "businessCases": [
-      "deposit_growth",
-      "engagement",
-      "financial_wellness",
-      "card_spend"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Large jewellery purchase detected — engagement probability high",
-        "insight": "Big news? 💍 We noticed a jewellery purchase — congratulations! Here's a quick guide to merging finances as a couple: what to combine, what to keep separate.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "transaction_intelligence",
-        "customerReaction": "Alex laughs at the timely notification and taps yes.",
-        "bankOutcome": "Life-stage moment captured — household relationship expansion initiated"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Dual income household detected — combined savings power identified",
-        "insight": "Set a shared home savings goal with your partner — we'll track contributions from both of you in one place. A combined €80K target for your future down payment.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "goals_trackers",
-        "customerReaction": "Alex and partner both accept the shared goal in their respective apps.",
-        "bankOutcome": "Joint account opened — household financial relationship established"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Partner account link opportunity — household financial integration",
-        "insight": "Invite your partner to share financial goals and access a joint view. It takes 30 seconds — and means you're always on the same page when it comes to money.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "engagement_builder",
-        "customerReaction": "Partner is invited and joins via the shared link.",
-        "bankOutcome": "New customer acquired through partner referral — household captured"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Wedding expense pattern emerging — budget tracking needed",
-        "insight": "Tag wedding expenses as they happen and we'll track your total against your budget in real time. Most couples overspend by 28% — tagging keeps you on target.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "transaction_intelligence",
-        "customerReaction": "Alex enables wedding expense tagging for all card purchases.",
-        "bankOutcome": "Event budget tracking engaged — spending visibility increases satisfaction"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Engaged couple detected — joint financial product opportunities",
-        "insight": "Subject: Planning your next chapter — financial tools for newly engaged couples\n\nCongratulations, Alex! As you plan your future together, here are the joint accounts, shared savings goals, and mortgage pre-qualification tools available to you as a couple.",
-        "eventTypeExperience": "Email Experience",
-        "channel": "email",
-        "capability": "offers",
-        "customerReaction": "Alex schedules an in-branch appointment to open a joint account.",
-        "bankOutcome": "In-branch visit booked — joint account and mortgage pipeline established"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_12",
-    "age": 30,
-    "yearLabel": "Age 30",
-    "title": "Becoming a parent",
-    "bankEvent": "Hospital and baby-merchant spend surge",
-    "lifeStage": "family",
-    "emotionalTheme": "Joy & Responsibility",
-    "description": "Alex's first child arrives. Spending surges and priorities shift overnight. MyBank is ready with a family plan.",
-    "businessCases": [
-      "engagement",
-      "financial_wellness",
-      "retention",
-      "deposit_growth"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Hospital payment and baby-merchant spend detected — new parent signal",
-        "insight": "Congratulations on your new baby! 🎉 Here are the 5 most important financial moves in year one — from updating beneficiaries to starting a college fund for the new arrival.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "personalized_insights",
-        "customerReaction": "Parents work through the financial checklist together during quiet moments.",
-        "bankOutcome": "Family financial profile updated — expanded product relationship initiated"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "New family member detected — college savings window open from birth",
-        "insight": "Start your baby's college fund from day one — €25/month invested now could grow to over €11,000 by age 18. Tap to open a 529 account today.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "smart_savings",
-        "customerReaction": "Parents open a 529 account while the baby naps.",
-        "bankOutcome": "529 college savings account opened — long-term deposit relationship established"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Monthly spend increased ~€1,200 — family budget recalibration needed",
-        "insight": "Your monthly expenses increased by about €1,200 with the baby. Here's your updated 6-month cashflow forecast with a realistic family budget already built in.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "cashflow_forecast",
-        "customerReaction": "Family reviews the forecast and adjusts their grocery and dining budget.",
-        "bankOutcome": "Family budget established — cashflow stress prevented proactively"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Life insurance gap detected — no family protection policy in place",
-        "insight": "Your family just grew — so did your responsibility. A €500,000 life insurance policy costs about €25/month at your age. Protecting your family starts right here.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "offers",
-        "customerReaction": "Parents apply for life insurance coverage that same week.",
-        "bankOutcome": "Life insurance policy initiated — protection product cross-sell completed"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Family emergency fund covers 5 months — financial resilience confirmed",
-        "insight": "3 months in and your family finances are on track. Your emergency fund now covers 5 months of family expenses — that's genuine financial peace of mind.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "personalized_insights",
-        "customerReaction": "Family feels secure and confident in their financial position.",
-        "bankOutcome": "Retention reinforced — family banking relationship at its strongest point"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_13",
     "age": 32,
-    "yearLabel": "Age 32",
-    "title": "Dreaming of homeownership",
-    "bankEvent": "Real estate search behaviour and down payment saving",
-    "lifeStage": "homeowner",
-    "emotionalTheme": "Ambition",
-    "description": "Alex starts browsing listings. MyBank catches the intent signal and starts building the path to ownership.",
+    "yearLabel": "Age 30-34",
+    "title": "Mature Saving Habits and ISA Recommendation",
+    "bankEvent": "Consistent savings history triggers ISA suitability recommendation",
+    "lifeStage": "midlife",
+    "emotionalTheme": "Security and Long-Term Growth",
+    "description": "By age 30-34, Paul has built consistent savings habits. BOI Buddy recommends an ISA as the next step for tax-efficient long-term growth and life-goal resilience.",
     "businessCases": [
+      "wealth",
       "deposit_growth",
-      "product_conversion",
-      "engagement"
+      "engagement",
+      "retention"
     ],
     "financialSignals": [],
     "personeticsCapabilities": [],
@@ -1294,674 +287,61 @@
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "Real estate website visits detected — homeownership intent signal",
-        "insight": "You've been browsing homes — we noticed! 🏡 Start your down payment fund today. At your current savings rate, you could hit a 20% down payment in just 3 years.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "goals_trackers",
-        "customerReaction": "Alex starts a dedicated down payment savings goal immediately.",
-        "bankOutcome": "Down payment savings account created — mortgage pipeline initiated"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Mortgage affordability modelled — income and debt ratio assessed",
-        "insight": "Based on your income and current debts, you could qualify for a €380,000 mortgage today. That points to a €76,000 down payment target — here's a step-by-step plan to get there.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "cashflow_forecast",
-        "customerReaction": "Alex reviews the affordability model and feels the goal is achievable.",
-        "bankOutcome": "Mortgage pre-qualification journey begun — primary home loan relationship targeted"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Mortgage readiness score available — all three factors in strong range",
-        "insight": "Lenders look at three things: credit score, debt-to-income ratio, and down payment. You're strong on all three. Here's exactly where you stand on each factor today.",
+        "signal": "Savings consistency and balance growth cross recommendation threshold",
+        "insight": "You have built excellent savings discipline. An ISA could help your money work harder while supporting long-term goals.",
         "eventTypeExperience": "In-App Experience",
         "channel": "in_app",
         "capability": "personalized_insights",
-        "customerReaction": "Alex feels genuinely confident in their home-buying readiness.",
-        "bankOutcome": "Mortgage readiness score 84/100 — pre-approval conversion probability high"
+        "customerReaction": "Paul explores ISA explainer content.",
+        "bankOutcome": "High-intent wealth journey begins."
       },
       {
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "Down payment 60% saved — pre-qualification timing optimal",
-        "insight": "You've saved €45,000 toward your down payment! Get mortgage pre-qualified now — no credit score impact, and it shows sellers you mean business.",
+        "signal": "Customer enters investment planning flow",
+        "insight": "BOI Buddy chat: Let us map your goals (family security, dream home upgrades, education support) to an ISA contribution plan.",
+        "eventTypeExperience": "Agentic Chat Experience",
+        "channel": "chatbot",
+        "capability": "goals_trackers",
+        "customerReaction": "Paul sets goal-linked ISA contribution levels.",
+        "bankOutcome": "Personetics goals tools directly tied to wealth product adoption."
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Scheduled ISA contribution date",
+        "insight": "Quick reminder: your monthly ISA contribution is due tomorrow. Keeping consistency protects your long-term plan.",
         "eventTypeExperience": "Push Notification Experience",
         "channel": "push",
-        "capability": "offers",
-        "customerReaction": "Alex starts the pre-qualification process the same evening.",
-        "bankOutcome": "Mortgage pre-qualification initiated — loan pipeline established"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Active home search — 12 listings saved, 3 open houses attended",
-        "insight": "You've saved 12 listings and attended 3 open houses. Here's a home-buying readiness checklist to make sure everything is in order before the right home shows up.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
         "capability": "engagement_builder",
-        "customerReaction": "Alex completes the readiness checklist and feels prepared.",
-        "bankOutcome": "Home buying relationship deepened — pre-approval ready to convert"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_14",
-    "age": 34,
-    "yearLabel": "Age 34",
-    "title": "Buying a first home",
-    "bankEvent": "Mortgage funded, fixed costs reset",
-    "lifeStage": "homeowner",
-    "emotionalTheme": "Achievement",
-    "description": "The mortgage funds. Fixed costs reset. MyBank helps Alex master the biggest financial commitment of their life.",
-    "businessCases": [
-      "product_conversion",
-      "engagement",
-      "retention",
-      "account_primacy"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Mortgage funded — home purchase transaction confirmed",
-        "insight": "Congratulations — you're a homeowner! 🏠 Your mortgage is funded. Set up autopay now so you never miss a payment and your credit score stays protected.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "offers",
-        "customerReaction": "Alex sets up mortgage autopay the same day the keys arrive.",
-        "bankOutcome": "Mortgage autopay activated — payment consistency and retention secured"
+        "customerReaction": "Paul confirms contribution.",
+        "bankOutcome": "Sustained contribution behavior maintained."
       },
       {
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "Fixed expenses increased by €1,450/month — new budget baseline needed",
-        "insight": "Your mortgage payment of €1,450/month is now your biggest fixed cost. Here's your updated household budget with every expense mapped out and maintenance reserves built in.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "cashflow_forecast",
-        "customerReaction": "Family adopts the new household budget in the first week.",
-        "bankOutcome": "Household financial plan established — ongoing monthly engagement secured"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Home maintenance fund gap — no reserve established yet",
-        "insight": "Experts recommend saving 1% of your home's value for maintenance annually — that's €3,200/year for your home. Start a home fund at just €267/month.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "smart_savings",
-        "customerReaction": "Alex creates a home maintenance savings goal on the spot.",
-        "bankOutcome": "Home maintenance fund created — property protection mindset established"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "First homeowner tax season approaching — deduction guide available",
-        "insight": "Subject: Your personalised homeowner financial guide is ready, Alex!\n\nHi Alex, welcome to homeownership! From mortgage interest deductions to building equity, this guide is tailored to your loan and property. Your first major tax benefit kicks in next April.",
+        "signal": "First ISA contribution posted",
+        "insight": "Email: Your ISA is active. Here is your contribution summary and long-term projection by each life goal.",
         "eventTypeExperience": "Email Experience",
         "channel": "email",
-        "capability": "personalized_insights",
-        "customerReaction": "Alex bookmarks the homeowner tax deduction guide.",
-        "bankOutcome": "Homeowner advisory relationship deepened — tax season engagement secured"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Home equity growth detected — property appreciation beginning",
-        "insight": "3 months in and your home is already building equity. Track your real-time equity — current loan balance vs. estimated home value — and watch your net worth grow.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "engagement_builder",
-        "customerReaction": "Alex checks the equity tracker regularly and shares it with family.",
-        "bankOutcome": "HELOC relationship primed — ongoing property value tracking engagement"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_15",
-    "age": 37,
-    "yearLabel": "Age 37",
-    "title": "Renovating the home",
-    "bankEvent": "Large home improvement transactions begin",
-    "lifeStage": "homeowner",
-    "emotionalTheme": "Investment",
-    "description": "The renovation begins. MyBank turns home equity into smart, low-cost financing and tracks every euro.",
-    "businessCases": [
-      "product_conversion",
-      "credit_growth",
-      "engagement",
-      "card_spend"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Home improvement merchant spend detected — HELOC opportunity",
-        "insight": "Home renovation underway! Your home equity has grown to €85,000. A HELOC lets you borrow against it at a lower rate than a personal loan — ideal for this project.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "offers",
-        "customerReaction": "Alex opens a HELOC application directly from the insight card.",
-        "bankOutcome": "HELOC opened — home equity monetised, product cross-sell completed"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Renovation spend elevated — cashflow stress risk flagged",
-        "insight": "Renovation spending is high this month — you're on track, but it's close. Here's a 60-day cashflow forecast to make sure you finish the project without running short.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
         "capability": "cashflow_forecast",
-        "customerReaction": "Alex reviews the warning and adjusts the contractor payment timeline.",
-        "bankOutcome": "Cashflow monitoring prevents renovation-related overdraft"
+        "customerReaction": "Paul shares summary with partner.",
+        "bankOutcome": "Household confidence supports retention and wallet share."
       },
       {
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "Renovation ROI analysis available — value impact modelled",
-        "insight": "Kitchen and bathroom remodels typically return 65–80% on resale value. Based on your €40,000 budget, this renovation adds an estimated €26,000–€32,000 to your home's value.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "personalized_insights",
-        "customerReaction": "Alex feels confident the renovation is a smart financial investment.",
-        "bankOutcome": "Home value appreciation validated — equity growth projected"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "High contractor payment volume — rewards card spend opportunity",
-        "insight": "Earn 2% cashback by paying contractors on your rewards card. On a €40,000 renovation, that's €800 back. Want a temporary higher spending limit for this project?",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "offers",
-        "customerReaction": "Alex switches all contractor payments to the rewards card.",
-        "bankOutcome": "Card spend volume increased — €800 rewards engagement and retention"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Renovation complete — merchant spend returning to baseline",
-        "insight": "Renovation complete! Your home is now estimated at €35,000 more than you paid. Here's the full equity and net worth update reflecting your investment.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "engagement_builder",
-        "customerReaction": "Alex celebrates and shares the equity summary with friends.",
-        "bankOutcome": "Net worth increase documented — customer loyalty and satisfaction peak"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_16",
-    "age": 40,
-    "yearLabel": "Age 40",
-    "title": "Hitting career peak",
-    "bankEvent": "Payroll up 28%, idle balance growing",
-    "lifeStage": "midlife",
-    "emotionalTheme": "Confidence",
-    "description": "A promotion brings a 28% raise. Idle cash accumulates. MyBank moves Alex from mass retail to wealth.",
-    "businessCases": [
-      "deposit_growth",
-      "wealth",
-      "product_conversion",
-      "card_spend"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Payroll increase 28% detected — income level crossed wealth threshold",
-        "insight": "Congratulations on the promotion! 🎉 Your income jumped 28%. Here's where the extra money is currently going — and a smarter allocation plan to help it build real wealth.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "transaction_intelligence",
-        "customerReaction": "Alex reviews the breakdown and adjusts the savings and investment split.",
-        "bankOutcome": "Wealth accumulation strategy initiated — high-value customer flag activated"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Idle balance alert — €8,400 sitting in low-yield checking",
-        "insight": "You have €8,400 sitting in checking earning almost nothing. Move it to a high-yield account and earn an extra €400 per year — zero extra effort required.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "smart_savings",
-        "customerReaction": "Alex transfers €6,000 to the high-yield savings account.",
-        "bankOutcome": "Idle balance monetised — €400 annual interest income generated"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "401(k) contribution below income-adjusted maximum — gap identified",
-        "insight": "Now is the time to max your 401(k). Increasing contributions by €200/month could add €180,000 to your retirement by age 65 — all tax-free compound growth.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "offers",
-        "customerReaction": "Alex increases 401(k) contribution to 15% of salary.",
-        "bankOutcome": "Retirement funding maximised — long-term wealth building accelerated"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "High-value customer signal — income and assets cross Premier threshold",
-        "insight": "OPPORTUNITY — Alex Johnson: Income increased 28% (new level: €142K). Idle checking balance €42,000. Total assets approaching €400K. Eligible for Premier Banking. Recommend proactive call for wealth advisory introduction and investment account setup.",
+        "signal": "Customer demonstrates steady ISA behavior",
+        "insight": "Banker task: Offer annual ISA optimization review and align contributions with upcoming family milestones.",
         "eventTypeExperience": "Banker CRM Experience",
         "channel": "banker",
         "capability": "personalized_insights",
-        "customerReaction": "Banker schedules a Premier Banking discovery call within 48 hours.",
-        "bankOutcome": "Wealth advisory relationship initiated — high-value customer upgrade in progress"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "One year at peak income — net worth trajectory on track for €2M",
-        "insight": "One year at your new income level and you're on track for a €2M net worth by retirement. Here's your full financial health dashboard — you've come a very long way, Alex.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "engagement_builder",
-        "customerReaction": "Alex reviews the dashboard and feels pride in the progress made.",
-        "bankOutcome": "Premier Banking relationship fully established — long-term loyalty secured"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_17",
-    "age": 45,
-    "yearLabel": "Age 45",
-    "title": "Sending a child to college",
-    "bankEvent": "529 plan distributions begin",
-    "lifeStage": "midlife",
-    "emotionalTheme": "Legacy",
-    "description": "18 years of savings hit their purpose. MyBank optimises the disbursement and protects what's left.",
-    "businessCases": [
-      "deposit_growth",
-      "engagement",
-      "wealth"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "529 distribution initiated — college tuition payments beginning",
-        "insight": "Your 18-year college fund is ready — €47,000 saved! Here's a smart 4-year disbursement plan so the fund covers tuition, housing, and books optimally without running short.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "goals_trackers",
-        "customerReaction": "Family reviews the 4-year plan and follows the recommended schedule.",
-        "bankOutcome": "529 distribution strategy activated — tax-efficient withdrawals managed"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Tuition payment due in 14 days — cashflow timing analysis needed",
-        "insight": "Tuition of €12,500 is due in 14 days. Your 529 will cover it — here's the transfer timeline and your updated household cashflow with college costs fully included.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "cashflow_forecast",
-        "customerReaction": "Family initiates the 529 transfer on schedule with no stress.",
-        "bankOutcome": "Tuition payment managed seamlessly — no cashflow disruption"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "529 depletion risk detected — projected short by junior year",
-        "insight": "At current withdrawal rates, the 529 may run short by junior year. Adding €200/month now extends full coverage through graduation — without touching other savings.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "smart_savings",
-        "customerReaction": "Family adds a €200/month top-up to keep the fund fully covered.",
-        "bankOutcome": "529 fund extended — 4-year coverage maintained, shortfall avoided"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Parent PLUS loan eligibility — supplemental funding option available",
-        "insight": "Subject: Smart financing options for your child's college journey\n\nHi Alex, if the 529 runs short, a Parent PLUS Loan offers competitive rates with deferred payments until graduation. Here's a side-by-side comparison of the options available to you.",
-        "eventTypeExperience": "Email Experience",
-        "channel": "email",
-        "capability": "offers",
-        "customerReaction": "Family bookmarks the parent loan comparison for future reference.",
-        "bankOutcome": "Education financing relationship expanded — PLUS loan pipeline established"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Graduation approaching — post-college financial transition needed",
-        "insight": "Graduation is 6 months away! Here's what changes financially when the college chapter closes — from stopping 529 withdrawals to planning the post-grad financial transition for your child.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "personalized_insights",
-        "customerReaction": "Family reviews the post-graduation financial adjustment guide.",
-        "bankOutcome": "Life-stage transition planned — engagement maintained through milestone"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_18",
-    "age": 55,
-    "yearLabel": "Age 55",
-    "title": "Approaching retirement",
-    "bankEvent": "401(k) contributions maximised, pre-retirement signals",
-    "lifeStage": "pre_retirement",
-    "emotionalTheme": "Urgency",
-    "description": "Ten years out. MyBank calculates the gaps, closes them, and hands Alex to a wealth advisor.",
-    "businessCases": [
-      "wealth",
-      "financial_wellness",
-      "deposit_growth"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Pre-retirement detected — 10-year horizon flag triggered",
-        "insight": "You're 10 years from retirement. Your readiness score is 74/100 — solid, but improvable. Here are 3 specific moves that could add €200,000 to your retirement income.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "personalized_insights",
-        "customerReaction": "Alex reviews the readiness report and commits to the improvement plan.",
-        "bankOutcome": "Retirement planning engagement initiated — advisory relationship deepened"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Retirement income projection updated — €1.4M projected at target date",
-        "insight": "At your current savings rate, you'll retire with €1.4M in projected assets — that's €5,800/month in retirement income. Tap to see the full breakdown and scenario planning.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "cashflow_forecast",
-        "customerReaction": "Alex opens the detailed retirement income projection with curiosity.",
-        "bankOutcome": "Retirement confidence increased — continued contributions secured"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Catch-up contribution eligible — age 50+ IRS limit increase unlocked",
-        "insight": "You're now eligible for catch-up contributions — an extra €7,500/year in your 401(k) beyond the standard limit. Max it out and potentially add €115,000 more by retirement.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "goals_trackers",
-        "customerReaction": "Alex increases 401(k) contributions to the new maximum immediately.",
-        "bankOutcome": "Retirement savings maximised — catch-up contributions activated"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Pre-retirement milestone — assets over €1M, high-value transition",
-        "insight": "OPPORTUNITY — Alex Johnson: 10 years from retirement. Total assets: €1.1M. Recommend private wealth retirement planning session, IRA consolidation, Social Security optimisation strategy, and estate planning introduction.",
-        "eventTypeExperience": "Banker CRM Experience",
-        "channel": "banker",
-        "capability": "personalized_insights",
-        "customerReaction": "Banker schedules a comprehensive retirement planning consultation.",
-        "bankOutcome": "Wealth advisory deepened — retirement assets targeted for management"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Retirement countdown milestone — 10 years to target retirement date",
-        "insight": "You're on track for a retirement worth celebrating. Here's your decade-by-decade financial journey mapped out — and what success looks like from now until your first day of freedom.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "engagement_builder",
-        "customerReaction": "Alex feels genuinely confident and motivated about the road ahead.",
-        "bankOutcome": "Retirement milestone engagement — loyal customer relationship at its peak"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_19",
-    "age": 65,
-    "yearLabel": "Age 65",
-    "title": "Entering retirement",
-    "bankEvent": "Payroll stops, retirement distributions begin",
-    "lifeStage": "retirement",
-    "emotionalTheme": "Freedom",
-    "description": "The paycheck stops. Distributions begin. MyBank orchestrates the income shift and brings in the wealth team.",
-    "businessCases": [
-      "retention",
-      "account_primacy",
-      "wealth",
-      "financial_wellness"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Payroll cessation detected — retirement income transition beginning",
-        "insight": "Retirement day has arrived — congratulations! 🎉 Your income now comes from distributions instead of payroll. Here's your month-by-month retirement cashflow plan for year one.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "cashflow_forecast",
-        "customerReaction": "Alex reviews the year-one retirement budget and feels prepared.",
-        "bankOutcome": "Retirement income plan activated — stable cash flow management begins"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Retirement transition complete — €1.4M in distributable assets",
-        "insight": "PRIORITY — Alex Johnson: Retirement transition confirmed. Assets: €1.4M. Action required: Schedule immediate RMD strategy session, income distribution optimisation, estate planning referral, and Premium Wealth Advisory enrolment today.",
-        "eventTypeExperience": "Banker CRM Experience",
-        "channel": "banker",
-        "capability": "personalized_insights",
-        "customerReaction": "Banker conducts a full retirement transition review meeting.",
-        "bankOutcome": "Premium wealth relationship secured — €1.4M assets under management"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Required Minimum Distribution threshold approaching — age 73",
-        "insight": "Required Minimum Distributions begin at age 73. Here's a tax-efficient withdrawal strategy to minimise your tax burden and make your retirement savings last as long as possible.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "personalized_insights",
-        "customerReaction": "Alex sets up RMD withdrawals according to the recommended strategy.",
-        "bankOutcome": "Tax-efficient RMD strategy activated — compliance and retention secured"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "First Social Security deposit received",
-        "insight": "Your first Social Security payment of €2,847 just arrived! Here's how it fits into your total retirement income picture alongside your distributions.",
-        "eventTypeExperience": "Push Notification Experience",
-        "channel": "push",
-        "capability": "smart_savings",
-        "customerReaction": "Alex integrates Social Security into the monthly income plan.",
-        "bankOutcome": "Retirement income fully optimised — maximum monthly income achieved"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "6 months in retirement — financial health strong",
-        "insight": "6 months into retirement and your finances are thriving. Here's your complete retirement income dashboard — distributions, Social Security, expenses, and net worth all in one view.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "engagement_builder",
-        "customerReaction": "Alex shares the retirement milestone summary with family.",
-        "bankOutcome": "Retirement financial wellness confirmed — deep, lasting loyalty established"
-      }
-    ],
-    "businessImpact": [],
-    "demoAssets": {
-      "icon": "📍",
-      "colorTheme": "blue",
-      "channelExamples": []
-    }
-  },
-  {
-    "id": "chapter_20",
-    "age": 72,
-    "yearLabel": "Age 72",
-    "title": "Planning a legacy",
-    "bankEvent": "Estate planning and charitable giving signals",
-    "lifeStage": "legacy",
-    "emotionalTheme": "Purpose",
-    "description": "The final chapter: wealth becomes legacy. MyBank ensures every euro finds its purpose.",
-    "businessCases": [
-      "wealth",
-      "retention",
-      "engagement"
-    ],
-    "financialSignals": [],
-    "personeticsCapabilities": [],
-    "customerStory": "",
-    "bankStory": "",
-    "microJourney": [
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Estate planning intent detected — legal and financial document searches",
-        "insight": "Estate planning ensures your wealth goes exactly where you want it. A will, trust, and beneficiary review is the single most important financial step you can take at this stage of life.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "personalized_insights",
-        "customerReaction": "Alex initiates the estate planning process with confidence.",
-        "bankOutcome": "Trust account and estate services introduced — legacy relationship begun"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Charitable giving pattern detected — recurring donations to 4 organisations",
-        "insight": "Your charitable giving totals €4,200 this year. A donor-advised fund lets you donate now, get the full tax deduction today, and distribute to charities at your own pace.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "goals_trackers",
-        "customerReaction": "Alex opens a donor-advised fund and consolidates all giving.",
-        "bankOutcome": "Donor-advised fund opened — philanthropic banking relationship established"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Legacy planning signals active — estate, charitable giving, and gifting",
-        "insight": "PRIORITY — Alex Johnson: Active legacy planning phase. Recommend: trust services, estate document review, donor-advised fund setup, annual gifting strategy, and multi-generational wealth planning session. High-impact relationship moment.",
-        "eventTypeExperience": "Banker CRM Experience",
-        "channel": "banker",
-        "capability": "personalized_insights",
-        "customerReaction": "Banker leads a comprehensive 2-hour legacy planning session.",
-        "bankOutcome": "Full legacy banking relationship established — multi-generational impact"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Annual gift tax exclusion opportunity — €18,000 per recipient available",
-        "insight": "Gifting €18,000 per year to loved ones is completely tax-free. Here's a multi-year gifting plan to transfer wealth to the next generation efficiently while reducing your taxable estate.",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "smart_savings",
-        "customerReaction": "Alex sets up annual tax-free gifts to children and grandchildren.",
-        "bankOutcome": "Tax-efficient wealth transfer activated — estate planning optimised"
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "High-net-worth legacy relationship — full-service multi-generational need",
-        "insight": "OPPORTUNITY — Alex Johnson: Legacy plan in final stages. Recommend private trust company services, generation-skipping trust, and a named wealth advisor to secure the family relationship across generations.",
-        "eventTypeExperience": "Banker CRM Experience",
-        "channel": "banker",
-        "capability": "offers",
-        "customerReaction": "Alex's family enrols in the multi-generational wealth management programme.",
-        "bankOutcome": "Multi-generational banking relationship secured — family assets retained for decades"
+        "customerReaction": "Paul books annual review.",
+        "bankOutcome": "Long-term wealth relationship deepened."
       }
     ],
     "businessImpact": [],
