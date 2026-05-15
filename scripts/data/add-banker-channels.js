@@ -5,12 +5,12 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const eventsPath = path.join(__dirname, '../src/content/lifeEvents/base-life-events.json');
+const eventsPath = path.join(__dirname, '../../src/content/lifeEvents/base-life-events.json');
 
 // Banker messages tailored to each life event
 const bankerMessagesMap = {
   'chapter_1': 'New family member! Parents open child savings—start wealth building early. €50/month = €50K by age 18.',
-  'chapter_2': 'Teen years ahead. Recommend youth debit + savings account. Teach financial independence early.',
+  'chapter_2': 'Smart Start saver active. Reinforce weekly €5 deposits, celebrate progress toward the €100 birthday goal, and position the account as Paul\'s first long-term savings habit.',
   'chapter_3': 'College bound. Federal student loan planning + tuition savings review recommended.',
   'chapter_4': 'Building credit foundation. Recommend secured credit card + credit monitoring setup.',
   'chapter_5': 'College graduate ready to invest. First job income—recommend 401(k) + emergency fund review.',

@@ -76,6 +76,17 @@
         "capability": "engagement_builder",
         "customerReaction": "Grandparents add €500 birthday gift.",
         "bankOutcome": "New deposit relationship established with family"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "",
+        "insight": "",
+        "channel": "banker",
+        "capability": "relationship_advisory",
+        "customerReaction": "New family member! Parents open child savings—start wealth building early. €50/month = €50K by age 18.",
+        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -90,12 +101,11 @@
     "age": 11,
     "yearLabel": "Age 11",
     "title": "Smart Start Account Holder",
-    "bankEvent": "Parents deposit pocket money into Paul's Smart Start Account",
+    "bankEvent": "First debit card issued and activated for youth savings",
     "lifeStage": "childhood",
-    "emotionalTheme": "Motivation Through Milestones",
-    "description": "Paul is 11, uses his Smart Start account, and spends mainly on GAA equipment. BOI Buddy turns parent deposits into a weekly savings habit.",
+    "emotionalTheme": "Motivation & Goal Achievement",
+    "description": "Paul receives a Smart Start Account from BOI and his parents deposit EUR20 pocket money. With a goal to save EUR100 for GAA equipment by his birthday, Paul learns the power of consistent saving.",
     "businessCases": [
-      "deposit_growth",
       "engagement",
       "financial_wellness",
       "account_primacy"
@@ -109,61 +119,100 @@
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "EUR20 pocket-money deposit posted to Paul's Smart Start account",
-        "insight": "Hey Paul! EUR20 has gone into your account. If you put EUR5 into your Smart Start Money Pot each week, you could have EUR100 by your birthday - that is a lot of GAA gear!",
-        "eventTypeExperience": "In-App Experience",
-        "channel": "in_app",
-        "capability": "personalized_insights",
-        "customerReaction": "Paul opens the insight card and views his sports spend trend.",
-        "bankOutcome": "Early engagement with smart savings guidance."
-      },
-      {
-        "day": 0,
-        "dayLabel": "",
-        "title": "",
-        "signal": "Savings goal suggestion accepted",
-        "insight": "BOI Buddy chat helps Paul set a birthday goal and confirms a weekly EUR5 transfer.",
+        "signal": "Parents deposit EUR20 pocket money - savings goal opportunity",
+        "insight": "Hey Paul! EUR20 has gone into your account. If you put EUR5 into your Smart Start Money Pot each week, you could have EUR100 by your birthday - that's a lot of GAA gear! If you reach this savings goal, you can earn points to redeem vouchers.",
         "eventTypeExperience": "Agentic Chat Experience",
         "channel": "chatbot",
         "capability": "goals_trackers",
-        "customerReaction": "Paul enables weekly transfer to Smart Start Money Pot.",
-        "bankOutcome": "Goal tracker adoption increases retention and repeat deposits."
+        "customerReaction": "Paul starts his Smart Start Money Pot and begins working toward his EUR100 birthday goal.",
+        "bankOutcome": "Goal tracker adoption increases youth engagement and repeat deposits",
+        "chatbotConversation": {
+          "messages": [
+            {
+              "role": "user",
+              "text": "How much money will I have if I save €5 each week?"
+            },
+            {
+              "role": "ai",
+              "text": "Great question! If you save €5 every week, that's €20 per month. By your birthday, you'll have saved around €100 - exactly enough for that GAA equipment you've been eyeing!"
+            },
+            {
+              "role": "user",
+              "text": "Really? €100 by my birthday?"
+            },
+            {
+              "role": "ai",
+              "text": "Yes! Your €20 pocket money just went in, so you're off to a great start. If you stick with €5 weekly, you'll hit your €100 goal. Plus, when you reach it, you can earn bonus points to redeem vouchers!"
+            },
+            {
+              "role": "user",
+              "text": "That sounds amazing. Let's do it!"
+            },
+            {
+              "role": "ai",
+              "text": "Brilliant! I've set up your Smart Start Money Pot to track your weekly €5 savings. Each deposit counts toward your €100 birthday goal. I'll send you a weekly reminder to keep you on track!"
+            }
+          ]
+        }
       },
       {
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "First weekly transfer completed",
-        "insight": "You are on your way to your EUR100 birthday target. Keep going to unlock voucher rewards.",
+        "signal": "Weekly pocket money habit forming - consistent savings behaviour detected",
+        "insight": "You are one week into your savings plan. Another EUR5 moved into your Money Pot today, so you are already building momentum toward your birthday target.",
+        "eventTypeExperience": "In-App Experience",
+        "channel": "in_app",
+        "capability": "goals_trackers",
+        "customerReaction": "Paul feels encouraged seeing his goal move closer after each weekly transfer.",
+        "bankOutcome": "Consistent micro-savings habits improve retention and account primacy"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "Birthday target projection updated - goal remains on track",
+        "insight": "At your current pace, you are still on track to reach EUR100 by your birthday. Keep going and you will be ready for new GAA gear right on time.",
         "eventTypeExperience": "Push Notification Experience",
         "channel": "push",
-        "capability": "engagement_builder",
-        "customerReaction": "Paul keeps savings cadence active.",
-        "bankOutcome": "Consistent contribution behavior established."
+        "capability": "goal_forecast",
+        "customerReaction": "Paul stays motivated because the bank shows his savings plan is working.",
+        "bankOutcome": "Forecast nudges lift repeat engagement and reinforce savings confidence"
       },
       {
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "One-week savings streak",
-        "insight": "Email to parent: Paul's Smart Start goal is active and on track for birthday milestone.",
-        "eventTypeExperience": "Email Experience",
-        "channel": "email",
-        "capability": "engagement_builder",
-        "customerReaction": "Parent reinforces Paul's savings habit.",
-        "bankOutcome": "Higher household trust and account primacy."
+        "signal": "Reward threshold approaching - loyalty incentive available",
+        "insight": "You are close to your EUR100 goal. One more good week of saving could unlock reward points that can be redeemed for vouchers.",
+        "eventTypeExperience": "In-App Experience",
+        "channel": "in_app",
+        "capability": "next_best_action",
+        "customerReaction": "Paul wants to finish the challenge so he can get both his gear and the reward points.",
+        "bankOutcome": "Rewards-linked nudges increase product engagement and positive sentiment"
       },
       {
         "day": 0,
         "dayLabel": "",
         "title": "",
-        "signal": "Strong child-saving pattern emerging",
-        "insight": "Banker prompt: Share youth savings rewards and next milestone options with family.",
-        "eventTypeExperience": "Banker CRM Experience",
+        "signal": "Savings goal achieved - celebration and follow-on habit opportunity",
+        "insight": "You did it, Paul. Your Smart Start Money Pot has reached EUR100 in time for your birthday. Keep the habit going and choose your next savings goal.",
+        "eventTypeExperience": "In-App Experience",
+        "channel": "in_app",
+        "capability": "goals_trackers",
+        "customerReaction": "Paul reaches his EUR100 goal and feels proud that his saving habit paid off.",
+        "bankOutcome": "Goal completion improves retention and creates momentum for the next savings objective"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "",
+        "insight": "",
         "channel": "banker",
-        "capability": "personalized_insights",
-        "customerReaction": "Family accepts follow-up guidance.",
-        "bankOutcome": "Relationship deepens at early life stage."
+        "capability": "relationship_advisory",
+        "customerReaction": "Smart Start saver active. Reinforce weekly €5 deposits, celebrate progress toward the €100 birthday goal, and position the account as Paul's first long-term savings habit.",
+        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -215,7 +264,35 @@
         "channel": "chatbot",
         "capability": "goals_trackers",
         "customerReaction": "Paul activates two starter goals.",
-        "bankOutcome": "Goal adoption drives student financial discipline."
+        "bankOutcome": "Goal adoption drives student financial discipline.",
+        "chatbotConversation": {
+          "messages": [
+            {
+              "role": "user",
+              "text": "I am moving to a Student Account. How should I budget for driving lessons and college fees?"
+            },
+            {
+              "role": "ai",
+              "text": "Good timing. From your savings pattern, a light monthly budget works. I recommend splitting your goal into Driving Lessons and College Fees so both keep moving."
+            },
+            {
+              "role": "user",
+              "text": "What monthly amount should I start with?"
+            },
+            {
+              "role": "ai",
+              "text": "Start with a low commitment that you can keep every month. Your current history supports this level without stressing your weekly spending."
+            },
+            {
+              "role": "user",
+              "text": "Set it up and remind me if I fall behind."
+            },
+            {
+              "role": "ai",
+              "text": "Configured. Both goals are live, and I will alert you early if spending drifts so you can stay on track."
+            }
+          ]
+        }
       },
       {
         "day": 0,
@@ -340,6 +417,17 @@
         "capability": "offers",
         "customerReaction": "Alex accepts in one tap.",
         "bankOutcome": "Credit utilization optimization - APR reduced by 3%"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "",
+        "insight": "",
+        "channel": "banker",
+        "capability": "relationship_advisory",
+        "customerReaction": "Building credit foundation. Recommend secured credit card + credit monitoring setup.",
+        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -428,6 +516,17 @@
         "capability": "personalized_insights",
         "customerReaction": "Alex follows the suggested budget.",
         "bankOutcome": "Student loan payoff accelerated by 8 months"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "",
+        "insight": "",
+        "channel": "banker",
+        "capability": "relationship_advisory",
+        "customerReaction": "College graduate ready to invest. First job income—recommend 401(k) + emergency fund review.",
+        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -479,7 +578,35 @@
         "channel": "chatbot",
         "capability": "goals_trackers",
         "customerReaction": "Paul confirms mortgage saver goal.",
-        "bankOutcome": "Goal-led pathway to future mortgage conversion."
+        "bankOutcome": "Goal-led pathway to future mortgage conversion.",
+        "chatbotConversation": {
+          "messages": [
+            {
+              "role": "user",
+              "text": "My salary comes in and rent goes out right away. Can I still save for a home?"
+            },
+            {
+              "role": "ai",
+              "text": "Yes. Your salary-rent pattern shows a repeatable surplus. You are ready for a Mortgage Saver plan without compromising essential bills."
+            },
+            {
+              "role": "user",
+              "text": "How much can I move safely each month?"
+            },
+            {
+              "role": "ai",
+              "text": "I calculated a contribution level that protects your rent-month buffer. It is enough to build a deposit consistently and still keep flexibility."
+            },
+            {
+              "role": "user",
+              "text": "Activate it the day after salary."
+            },
+            {
+              "role": "ai",
+              "text": "Done. Your salary-linked transfer is active and your Home Deposit goal is now tracking monthly progress."
+            }
+          ]
+        }
       },
       {
         "day": 0,
@@ -603,6 +730,17 @@
         "capability": "engagement_builder",
         "customerReaction": "Alex feels momentum, considers refinance later.",
         "bankOutcome": "Consolidated loans - APR reduced to 4.2%"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "",
+        "insight": "",
+        "channel": "banker",
+        "capability": "relationship_advisory",
+        "customerReaction": "Student debt management critical. Consolidation analysis + repayment strategy planning available.",
+        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -690,6 +828,17 @@
         "capability": "engagement_builder",
         "customerReaction": "Alex bumps weekly save up.",
         "bankOutcome": "Emergency fund fully funded - financial security improved"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "",
+        "insight": "",
+        "channel": "banker",
+        "capability": "relationship_advisory",
+        "customerReaction": "Emerging financial strength. Recommend investment account + wealth-building roadmap.",
+        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -777,6 +926,17 @@
         "capability": "cashflow_forecast",
         "customerReaction": "Alex feels reassured.",
         "bankOutcome": "Auto loan approved at Prime rate - 4.9% APR"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "",
+        "insight": "",
+        "channel": "banker",
+        "capability": "relationship_advisory",
+        "customerReaction": "First vehicle purchase. Auto loan pre-qualification available. APR savings up to €3K possible.",
+        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -865,6 +1025,17 @@
         "capability": "engagement_builder",
         "customerReaction": "Alex feels in control.",
         "bankOutcome": "Tax refund optimized - €3,200 received within 2 weeks"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "",
+        "insight": "",
+        "channel": "banker",
+        "capability": "relationship_advisory",
+        "customerReaction": "Tax season planning. Recommend tax-advantaged accounts + refund reinvestment strategy.",
+        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -953,6 +1124,17 @@
         "capability": "offers",
         "customerReaction": "Alex schedules an in-branch open.",
         "bankOutcome": "Joint account setup - household financial integration"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "",
+        "insight": "",
+        "channel": "banker",
+        "capability": "relationship_advisory",
+        "customerReaction": "Life partner transition. Joint account + estate planning consultation recommended.",
+        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -1041,6 +1223,17 @@
         "capability": "engagement_builder",
         "customerReaction": "Alex shares the recap.",
         "bankOutcome": "Tax credits applied - €2,000 annual child tax credit"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "",
+        "insight": "",
+        "channel": "banker",
+        "capability": "relationship_advisory",
+        "customerReaction": "Growing family expenses. Life insurance + college savings plan review critical.",
+        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -1128,6 +1321,17 @@
         "capability": "engagement_builder",
         "customerReaction": "Alex feels confident, stays the course.",
         "bankOutcome": "Down payment goal achieved - 20% saved (€60K)"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "",
+        "insight": "",
+        "channel": "banker",
+        "capability": "relationship_advisory",
+        "customerReaction": "Homeownership within reach. Mortgage pre-qualification + down payment savings strategy.",
+        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -1179,7 +1383,35 @@
         "channel": "chatbot",
         "capability": "goals_trackers",
         "customerReaction": "Paul activates goal-linked ISA contribution plan.",
-        "bankOutcome": "Personetics goals tooling drives product conversion."
+        "bankOutcome": "Personetics goals tooling drives product conversion.",
+        "chatbotConversation": {
+          "messages": [
+            {
+              "role": "user",
+              "text": "I have better saving habits now. Should I open an ISA?"
+            },
+            {
+              "role": "ai",
+              "text": "Yes. Your consistency and balances indicate ISA suitability. It is a strong next step for tax-efficient long-term growth."
+            },
+            {
+              "role": "user",
+              "text": "Can we connect it to my life goals, not just one generic target?"
+            },
+            {
+              "role": "ai",
+              "text": "Absolutely. We can map your goals tools plan across family security, home upgrades, and education support, then assign contribution levels per goal."
+            },
+            {
+              "role": "user",
+              "text": "Apply that plan and keep it simple for me."
+            },
+            {
+              "role": "ai",
+              "text": "Done. Your ISA contributions are now goal-linked, and I will provide monthly insight updates with adjustments when your cashflow changes."
+            }
+          ]
+        }
       },
       {
         "day": 0,
@@ -1304,6 +1536,17 @@
         "capability": "transaction_intelligence",
         "customerReaction": "Alex uses tracker daily.",
         "bankOutcome": "Home equity line available - €80K HELOC established"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "",
+        "insight": "",
+        "channel": "banker",
+        "capability": "relationship_advisory",
+        "customerReaction": "Home improvement planning. Home equity line options + renovation financing available.",
+        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
@@ -1479,6 +1722,17 @@
         "capability": "engagement_builder",
         "customerReaction": "Alex makes it the family meeting tool.",
         "bankOutcome": "529 distributions deployed - €80K college funding released"
+      },
+      {
+        "day": 0,
+        "dayLabel": "",
+        "title": "",
+        "signal": "",
+        "insight": "",
+        "channel": "banker",
+        "capability": "relationship_advisory",
+        "customerReaction": "Child education funding. 529 college savings plan review + scholarship strategy.",
+        "bankOutcome": ""
       }
     ],
     "businessImpact": [],
