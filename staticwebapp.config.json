@@ -1,16 +1,12 @@
 {
-  "routes": [
-    {
-      "route": "/*",
-      "rewrite": "/index.html"
-    }
-  ],
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/images/*", "/css/*", "/js/*", "*.svg", "*.png", "*.jpg", "*.gif", "*.ico", "*.json"]
+    "exclude": ["/assets/*", "*.svg", "*.png", "*.jpg", "*.gif", "*.ico", "*.json", "*.css", "*.js"]
   },
   "mimeTypes": {
     ".json": "text/json",
-    ".wasm": "application/wasm"
+    ".wasm": "application/wasm",
+    ".css": "text/css",
+    ".js": "application/javascript"
   }
 }
